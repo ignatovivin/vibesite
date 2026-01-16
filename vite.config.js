@@ -4,6 +4,12 @@ import { copyFileSync } from 'fs'
 import { join } from 'path'
 
 export default defineConfig({
+  base: '/', // Убеждаемся, что base path правильный
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    emptyOutDir: true
+  },
   plugins: [
     react(),
     {

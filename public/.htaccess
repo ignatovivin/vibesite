@@ -27,8 +27,5 @@ RewriteRule . /index.html [L]
   AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
 </IfModule>
 
-# Защита от прямого доступа к скрытым файлам
-<FilesMatch "^\.">
-  Order allow,deny
-  Deny from all
-</FilesMatch>
+# Защита от прямого доступа к скрытым файлам (кроме .htaccess)
+# Примечание: .htaccess обрабатывается до выполнения этих правил, поэтому он не блокируется
