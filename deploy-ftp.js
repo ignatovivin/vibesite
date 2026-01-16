@@ -12,7 +12,7 @@ const FTP_CONFIG = {
 };
 
 const LOCAL_DIR = './dist';
-const REMOTE_DIR = '/public_html'; // или /www, в зависимости от вашего хостинга
+const REMOTE_DIR = '/www/takto.space'; // Корневая папка для домена takto.space
 
 async function uploadDirectory(client, localPath, remotePath) {
   console.log(`📁 Создаю директорию: ${remotePath}`);
