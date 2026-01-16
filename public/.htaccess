@@ -1,14 +1,25 @@
-# Перенаправление на HTTPS
+# Включаем RewriteEngine
 RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Поддержка SPA (React Router) - все запросы перенаправляются на index.html
+# Важно: это правило должно быть ПЕРЕД редиректом на HTTPS, если он нужен
 RewriteBase /
+
+# Не перенаправляем, если это уже index.html
 RewriteRule ^index\.html$ - [L]
+
+# Если файл или директория существуют, не перенаправляем
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+
+# Перенаправляем все остальное на index.html (для SPA)
 RewriteRule . /index.html [L]
+
+# Перенаправление на HTTPS (закомментировано, так как должно быть настроено в панели REG.Ru)
+# Если редирект на HTTPS не настроен в панели, раскомментируйте следующие строки:
+# RewriteCond %{HTTPS} off
+# RewriteCond %{HTTP:X-Forwarded-Proto} !https
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Кэширование статических файлов
 <IfModule mod_expires.c>
