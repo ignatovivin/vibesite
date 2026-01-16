@@ -1,5 +1,5 @@
-import { createReadStream, readdirSync, statSync } from 'fs';
-import { join, relative } from 'path';
+import { readdirSync, statSync } from 'fs';
+import { join } from 'path';
 import { Client } from 'basic-ftp';
 
 // FTP настройки (можно передать через переменные окружения)
@@ -45,7 +45,7 @@ async function uploadDirectory(client, localPath, remotePath) {
 
 async function deploy() {
   const client = new Client();
-  client.ftp.verbose = true; // Включить подробный вывод
+  client.ftp.verbose = false; // Отключить подробный вывод (можно включить для отладки)
 
   try {
     console.log('🔌 Подключаюсь к FTP серверу...');
