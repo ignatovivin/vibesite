@@ -441,6 +441,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    font-size: 14px;
   }
 
   .pricing-section__footer .btn__wrapper {
@@ -543,6 +544,13 @@
 
   .pricing-section__swiper .swiper-slide {
     width: 100%;
+    box-sizing: border-box;
+  }
+
+  .pricing-card {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
   }
 
   .pricing-section__navigation {

@@ -64,7 +64,14 @@
 .how-it-works-section__steps-wrapper {
   width: 100%;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
+}
+
+.how-it-works-section__steps-grid {
+  display: none;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  width: 100%;
 }
 
 .how-it-works-section__swiper {
@@ -84,6 +91,57 @@
   height: auto;
 }
 
+/* Скрываем стандартные кнопки Swiper */
+.how-it-works-section__swiper .swiper-button-next,
+.how-it-works-section__swiper .swiper-button-prev {
+  display: none;
+}
+
+.how-it-works-section__navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.how-it-works-section__nav-button {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 2px solid var(--color-light-accent-muted);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: var(--color-light-accent-default);
+  padding: 0;
+}
+
+.how-it-works-section__nav-button:hover:not(:disabled) {
+  background: var(--color-light-accent-container-default);
+  border-color: var(--color-light-accent-soft);
+  color: var(--color-light-accent-hover);
+}
+
+.how-it-works-section__nav-button:active:not(:disabled) {
+  background: var(--color-light-accent-container-default);
+  border-color: var(--color-light-accent-default);
+  color: var(--color-light-accent-active);
+}
+
+.how-it-works-section__nav-button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.how-it-works-section__nav-button svg {
+  width: 24px;
+  height: 24px;
+}
+
 .how-it-works-step {
   display: flex;
   flex-direction: column;
@@ -96,11 +154,6 @@
   box-sizing: border-box;
 }
 
-/* Скрываем стандартные кнопки Swiper */
-.how-it-works-section__swiper .swiper-button-next,
-.how-it-works-section__swiper .swiper-button-prev {
-  display: none;
-}
 
 .how-it-works-step__icon {
   width: 90px;
@@ -284,11 +337,21 @@
   }
 
   .how-it-works-section__steps-wrapper {
-    overflow: hidden;
+    overflow: visible;
+  }
+
+  .how-it-works-section__steps-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
   }
 
   .how-it-works-section__swiper {
-    overflow: hidden;
+    display: none;
+  }
+
+  .how-it-works-section__navigation {
+    display: none;
   }
 
   .how-it-works-step {
@@ -373,11 +436,21 @@
   }
 
   .how-it-works-section__steps-wrapper {
-    overflow: hidden;
+    overflow: visible;
+  }
+
+  .how-it-works-section__steps-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
   }
 
   .how-it-works-section__swiper {
-    overflow: hidden;
+    display: none;
+  }
+
+  .how-it-works-section__navigation {
+    display: none;
   }
 
   .how-it-works-step {

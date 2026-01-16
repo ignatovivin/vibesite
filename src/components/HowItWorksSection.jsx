@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from 'swiper/modules'
 import 'swiper/css'
@@ -60,7 +60,18 @@ const ArrowRightIcon = ({ className = '' }) => (
  * HowItWorksSection component displaying the customer journey
  */
 function HowItWorksSection() {
-  const [swiper, setSwiper] = React.useState(null)
+  const [isMobile, setIsMobile] = useState(false)
+  const [swiper, setSwiper] = useState(null)
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768)
+    }
+
+    handleResize()
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
 
   const steps = [
     {
@@ -115,52 +126,10 @@ function HowItWorksSection() {
           </div>
           <div className="how-it-works-section__main">
             <div className="how-it-works-section__steps-wrapper">
-              <Swiper
-                modules={[Navigation]}
-                spaceBetween={16}
-                slidesPerView={4}
-                slidesPerGroup={1}
-                navigation={{
-                  prevEl: '.how-it-works-section__nav-button--prev',
-                  nextEl: '.how-it-works-section__nav-button--next',
-                }}
-                onSwiper={(swiperInstance) => {
-                  setSwiper(swiperInstance)
-                  setTimeout(() => {
-                    if (swiperInstance.navigation) {
-                      swiperInstance.navigation.init()
-                      swiperInstance.navigation.update()
-                    }
-                  }, 100)
-                }}
-                breakpoints={{
-                  320: {
-                    slidesPerView: 1,
-                    slidesPerGroup: 1,
-                  },
-                  768: {
-                    slidesPerView: 1,
-                    slidesPerGroup: 1,
-                  },
-                  1024: {
-                    slidesPerView: 2,
-                    slidesPerGroup: 1,
-                  },
-                  1200: {
-                    slidesPerView: 3,
-                    slidesPerGroup: 1,
-                  },
-                  1440: {
-                    slidesPerView: 4,
-                    slidesPerGroup: 1,
-                  },
-                }}
-                className="how-it-works-section__swiper"
-                watchOverflow={true}
-              >
-                {steps.map((step, index) => (
-                  <SwiperSlide key={index}>
-                    <div className="how-it-works-step">
+              {isMobile ? (
+                <div className="how-it-works-section__steps-grid">
+                  {steps.map((step, index) => (
+                    <div key={index} className="how-it-works-step">
                       <div className="how-it-works-step__icon">
                         <img src={step.icon} alt={step.title} />
                       </div>
@@ -169,23 +138,75 @@ function HowItWorksSection() {
                         <p className="how-it-works-step__subtitle">{step.subtitle}</p>
                       </div>
                     </div>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
-            </div>
-            <div className="how-it-works-section__navigation">
-              <button
-                className="how-it-works-section__nav-button how-it-works-section__nav-button--prev"
-                aria-label="Предыдущий слайд"
-              >
-                <ArrowLeftIcon />
-              </button>
-              <button
-                className="how-it-works-section__nav-button how-it-works-section__nav-button--next"
-                aria-label="Следующий слайд"
-              >
-                <ArrowRightIcon />
-              </button>
+                  ))}
+                </div>
+              ) : (
+                <>
+                  <Swiper
+                    modules={[Navigation]}
+                    spaceBetween={16}
+                    slidesPerView={4}
+                    slidesPerGroup={1}
+                    navigation={{
+                      prevEl: '.how-it-works-section__nav-button--prev',
+                      nextEl: '.how-it-works-section__nav-button--next',
+                    }}
+                    onSwiper={(swiperInstance) => {
+                      setSwiper(swiperInstance)
+                      setTimeout(() => {
+                        if (swiperInstance.navigation) {
+                          swiperInstance.navigation.init()
+                          swiperInstance.navigation.update()
+                        }
+                      }, 100)
+                    }}
+                    breakpoints={{
+                      1024: {
+                        slidesPerView: 2,
+                        slidesPerGroup: 1,
+                      },
+                      1200: {
+                        slidesPerView: 3,
+                        slidesPerGroup: 1,
+                      },
+                      1440: {
+                        slidesPerView: 4,
+                        slidesPerGroup: 1,
+                      },
+                    }}
+                    className="how-it-works-section__swiper"
+                    watchOverflow={true}
+                  >
+                    {steps.map((step, index) => (
+                      <SwiperSlide key={index}>
+                        <div className="how-it-works-step">
+                          <div className="how-it-works-step__icon">
+                            <img src={step.icon} alt={step.title} />
+                          </div>
+                          <div className="how-it-works-step__content">
+                            <h3 className="how-it-works-step__title">{step.title}</h3>
+                            <p className="how-it-works-step__subtitle">{step.subtitle}</p>
+                          </div>
+                        </div>
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+                  <div className="how-it-works-section__navigation">
+                    <button
+                      className="how-it-works-section__nav-button how-it-works-section__nav-button--prev"
+                      aria-label="Предыдущий слайд"
+                    >
+                      <ArrowLeftIcon />
+                    </button>
+                    <button
+                      className="how-it-works-section__nav-button how-it-works-section__nav-button--next"
+                      aria-label="Следующий слайд"
+                    >
+                      <ArrowRightIcon />
+                    </button>
+                  </div>
+                </>
+              )}
             </div>
           </div>
         </div>

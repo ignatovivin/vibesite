@@ -243,12 +243,12 @@ function PricingSection() {
               }}
               breakpoints={{
                 320: {
-                  slidesPerView: 1.1,
-                  spaceBetween: 16,
+                  slidesPerView: 1.02,
+                  spaceBetween: 4,
                 },
                 375: {
-                  slidesPerView: 1.1,
-                  spaceBetween: 16,
+                  slidesPerView: 1.02,
+                  spaceBetween: 4,
                 },
               }}
               className="pricing-section__swiper"
