@@ -151,14 +151,20 @@ function Footer() {
               <FunctionButton
                 variant="secondary"
                 icon={null}
-                onClick={() => console.log('Политика конфиденциальности')}
+                onClick={(e) => {
+                  e.preventDefault()
+                  window.open('/politika_obrabotki_i_zashiti_dannih.pdf', '_blank', 'noopener,noreferrer')
+                }}
               >
                 Политика конфиденциальности
               </FunctionButton>
               <FunctionButton
                 variant="secondary"
                 icon={null}
-                onClick={() => console.log('Условия использования')}
+                onClick={(e) => {
+                  e.preventDefault()
+                  window.open('/oferta_2.pdf', '_blank', 'noopener,noreferrer')
+                }}
               >
                 Условия использования
               </FunctionButton>

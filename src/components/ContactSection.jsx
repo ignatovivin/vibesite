@@ -534,7 +534,7 @@ function ContactSection() {
                     </Button>
                     <p className="contact-section__disclaimer">
                       Нажимая кнопку, вы соглашаетесь с{' '}
-                      <a href="#" className="contact-section__disclaimer-link" onClick={(e) => e.preventDefault()}>
+                      <a href="/politika_obrabotki_i_zashiti_dannih.pdf" className="contact-section__disclaimer-link" target="_blank" rel="noopener noreferrer">
                         обработкой персональных данных
                       </a>
                     </p>

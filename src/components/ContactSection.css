@@ -230,7 +230,7 @@
 .contact-section__disclaimer {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.4545454545454546em;
   text-align: center;
   color: var(--color-light-fg-muted);
@@ -449,7 +449,7 @@
   }
 
   .contact-section__disclaimer {
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 8px;
   }
 }
