@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# FTP deploy script (contains sensitive data - optional to ignore)
+# deploy-ftp.js
