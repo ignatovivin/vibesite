@@ -15,11 +15,12 @@ RewriteCond %{REQUEST_FILENAME} !-d
 # Перенаправляем все остальное на index.html (для SPA)
 RewriteRule . /index.html [L]
 
-# Перенаправление на HTTPS (закомментировано, так как должно быть настроено в панели REG.Ru)
-# Если редирект на HTTPS не настроен в панели, раскомментируйте следующие строки:
-# RewriteCond %{HTTPS} off
-# RewriteCond %{HTTP:X-Forwarded-Proto} !https
-# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# Перенаправление на HTTPS
+# Проверяем, что соединение не HTTPS и не идет через прокси с HTTPS
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # Кэширование статических файлов
 <IfModule mod_expires.c>
