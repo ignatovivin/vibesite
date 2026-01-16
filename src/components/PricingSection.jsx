@@ -78,6 +78,7 @@ const ArrowRightIcon = ({ className = '' }) => (
  */
 function PricingSection() {
   const [isSlider, setIsSlider] = useState(false)
+  const [swiper, setSwiper] = useState(null)
 
   const plans = [
     {
@@ -128,10 +129,10 @@ function PricingSection() {
     }
   ]
 
-  // Определяем, нужно ли показывать слайдер
+  // Определяем, нужно ли показывать слайдер (до планшетной версии - 768px)
   useEffect(() => {
     const handleResize = () => {
-      setIsSlider(window.innerWidth <= 1024)
+      setIsSlider(window.innerWidth < 768)
     }
 
     handleResize()
@@ -224,14 +225,34 @@ function PricingSection() {
           {isSlider ? (
             <Swiper
               modules={[Navigation]}
-              spaceBetween={17}
-              slidesPerView={1}
+              spaceBetween={16}
+              slidesPerView={1.1}
               slidesPerGroup={1}
               navigation={{
                 prevEl: '.pricing-section__nav-button--prev',
                 nextEl: '.pricing-section__nav-button--next',
               }}
+              onSwiper={(swiperInstance) => {
+                setSwiper(swiperInstance)
+                setTimeout(() => {
+                  if (swiperInstance.navigation) {
+                    swiperInstance.navigation.init()
+                    swiperInstance.navigation.update()
+                  }
+                }, 100)
+              }}
+              breakpoints={{
+                320: {
+                  slidesPerView: 1.1,
+                  spaceBetween: 16,
+                },
+                375: {
+                  slidesPerView: 1.1,
+                  spaceBetween: 16,
+                },
+              }}
               className="pricing-section__swiper"
+              watchOverflow={true}
             >
               {plans.map((plan, index) => (
                 <SwiperSlide key={index}>

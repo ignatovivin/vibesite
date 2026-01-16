@@ -338,3 +338,10 @@
   background: transparent;
   color: var(--color-light-fg-disabled);
 }
+
+/* Мобильные версии: растягиваем кнопки на всю ширину до планшетного разрешения */
+@media (max-width: 767px) {
+  .btn {
+    width: 100%;
+  }
+}

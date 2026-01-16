@@ -58,10 +58,16 @@
   margin-bottom: 48px;
 }
 
+/* Убеждаемся, что карточки видны на десктопе, когда слайдер не используется */
+.pricing-section__cards:not(.pricing-section__cards--slider) {
+  display: flex;
+}
+
 .pricing-section__cards--slider {
   position: relative;
   overflow: hidden;
   margin-bottom: 48px;
+  display: block;
 }
 
 .pricing-section__cards-wrapper {
@@ -86,6 +92,8 @@
 .pricing-section__swiper .swiper-slide {
   height: auto;
   width: auto;
+  display: flex;
+  box-sizing: border-box;
 }
 
 .pricing-section__navigation {
@@ -139,6 +147,31 @@
   align-items: center;
 }
 
+.pricing-section__footer .btn {
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-section__footer .btn__wrapper {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-section__footer .btn__label {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.pricing-section__footer-break {
+  display: block;
+}
+
 .pricing-card {
   background: var(--color-light-bg-surface-1);
   border-radius: 24px;
@@ -151,6 +184,7 @@
   flex-shrink: 0;
   transition: box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+  box-sizing: border-box;
 }
 
 .pricing-card:hover {
@@ -331,29 +365,6 @@
     font-size: 18px;
   }
 
-  .pricing-section__cards--slider {
-    margin-bottom: 40px;
-  }
-
-  .pricing-section__cards--slider .pricing-section__cards-wrapper {
-    width: calc(100% * 3);
-  }
-
-  .pricing-section__cards--slider .pricing-card {
-    flex: 0 0 calc(100% / 3 - 11.33px);
-    width: calc(100% / 3 - 11.33px);
-    max-width: none;
-    min-width: 0;
-  }
-
-  .pricing-section__navigation {
-    display: flex;
-  }
-
-  .pricing-section__cards:not(.pricing-section__cards--slider) {
-    display: none;
-  }
-
   .pricing-card__title-section {
     min-height: auto;
   }
@@ -400,11 +411,15 @@
     max-width: 100%;
   }
 
-  .pricing-section__navigation {
-    display: flex;
+  .pricing-section__cards:not(.pricing-section__cards--slider) {
+    display: none;
   }
 
-  .pricing-section__cards:not(.pricing-section__cards--slider) {
+  .pricing-section__cards--slider {
+    display: block;
+  }
+
+  .pricing-section__navigation {
     display: none;
   }
 
@@ -414,6 +429,28 @@
 
   .pricing-section__footer .btn {
     width: 100%;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-section__footer .btn__wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pricing-section__footer .btn__label {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pricing-section__footer-break {
+    display: block;
   }
 
   .pricing-card__content {
@@ -472,7 +509,7 @@
   }
 
   .pricing-section__title {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.3em;
   }
 
@@ -481,26 +518,19 @@
     line-height: 1.5em;
   }
 
-  .pricing-section__cards-wrapper {
-    overflow-x: auto;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-  }
-
-  .pricing-section__cards-wrapper::-webkit-scrollbar {
-    display: none;
-  }
-
   .pricing-section__cards--slider {
     margin-bottom: 24px;
     overflow: hidden;
+    display: block;
   }
 
   .pricing-section__swiper {
     overflow: hidden;
+    width: 100%;
+  }
+
+  .pricing-section__swiper .swiper-slide {
+    width: 100%;
   }
 
   .pricing-section__navigation {
@@ -508,7 +538,11 @@
   }
 
   .pricing-section__cards:not(.pricing-section__cards--slider) {
-    display: none;
+    display: none !important;
+  }
+
+  .pricing-section__cards--slider {
+    display: block !important;
   }
 
   .pricing-card {
@@ -619,5 +653,13 @@
 
   .pricing-section__footer-break {
     display: block;
+  }
+}
+
+/* Адаптивность для очень маленьких экранов (320px и меньше) */
+@media (max-width: 320px) {
+  .pricing-section__title {
+    font-size: 22px;
+    line-height: 1.3em;
   }
 }

@@ -301,7 +301,7 @@
   }
 
   .custom-platform-section__cards {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 12px;
   }
 
@@ -345,7 +345,7 @@
   }
 
   .custom-platform-section__title {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.3em;
   }
 
@@ -402,5 +402,13 @@
 
   .custom-platform-card__feature-text {
     font-size: 13px;
+  }
+}
+
+/* Адаптивность для очень маленьких экранов (320px и меньше) */
+@media (max-width: 320px) {
+  .custom-platform-section__title {
+    font-size: 22px;
+    line-height: 1.3em;
   }
 }

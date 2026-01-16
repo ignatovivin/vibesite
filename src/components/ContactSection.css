@@ -400,7 +400,7 @@
   }
 
   .contact-section__contact-items {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 12px;
   }
 
@@ -472,7 +472,7 @@
   }
 
   .contact-section__title {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.3em;
   }
 
@@ -562,5 +562,13 @@
     font-size: 12px;
     line-height: 1.4em;
     padding: 0 4px;
+  }
+}
+
+/* Адаптивность для очень маленьких экранов (320px и меньше) */
+@media (max-width: 320px) {
+  .contact-section__title {
+    font-size: 22px;
+    line-height: 1.3em;
   }
 }
