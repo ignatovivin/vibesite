@@ -188,14 +188,15 @@
   .partners-card {
     width: 100%;
     padding: 20px;
+    gap: 12px;
   }
 
   .partners-card__icon {
-    height: 80px;
+    height: 60px;
   }
 
   .partners-card__text {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
@@ -235,7 +236,7 @@
 
   .partners-card {
     padding: 16px;
-    gap: 16px;
+    gap: 12px;
   }
 
   .partners-card__icon {
@@ -253,5 +254,9 @@
   .partners-section__title {
     font-size: 22px;
     line-height: 1.3em;
+  }
+
+  .partners-card__icon {
+    height: 60px;
   }
 }
