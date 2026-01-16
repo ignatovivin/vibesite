@@ -423,6 +423,12 @@
     display: none;
   }
 
+  .pricing-card {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
   .pricing-section__footer {
     width: 100%;
   }
@@ -483,6 +489,12 @@
 
   .pricing-card__feature-text {
     font-size: 13px;
+  }
+
+  .pricing-card {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
   }
 }
 
@@ -548,6 +560,9 @@
   .pricing-card {
     padding: 16px;
     gap: 20px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
   }
 
   .pricing-card--highlighted {
