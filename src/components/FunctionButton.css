@@ -1,0 +1,102 @@
+/* Base FunctionButton Styles */
+.function-btn {
+  font-family: 'Inter', sans-serif;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.function-btn:focus-visible {
+  outline: 2px solid var(--color-light-accent-default);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.function-btn__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.function-btn__icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.function-btn__wrapper {
+  display: flex;
+  align-items: center;
+  padding: 2px 0;
+}
+
+.function-btn__label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4285714285714286em;
+  text-align: left;
+}
+
+/* Variant: Primary */
+.function-btn--primary .function-btn__label {
+  color: var(--color-light-accent-default);
+}
+
+.function-btn--primary .function-btn__icon {
+  color: var(--color-light-accent-default);
+}
+
+.function-btn--primary:hover:not(:disabled) .function-btn__label,
+.function-btn--primary:hover:not(:disabled) .function-btn__icon {
+  color: var(--color-light-accent-hover);
+}
+
+.function-btn--primary:active:not(:disabled) .function-btn__label,
+.function-btn--primary:active:not(:disabled) .function-btn__icon,
+.function-btn--primary.function-btn--active .function-btn__label,
+.function-btn--primary.function-btn--active .function-btn__icon {
+  color: var(--color-light-accent-active);
+}
+
+/* Variant: Secondary */
+.function-btn--secondary .function-btn__label {
+  color: var(--color-light-neutral-default);
+}
+
+.function-btn--secondary .function-btn__icon {
+  color: var(--color-light-neutral-default);
+}
+
+.function-btn--secondary:hover:not(:disabled) .function-btn__label,
+.function-btn--secondary:hover:not(:disabled) .function-btn__icon {
+  color: var(--color-light-accent-hover);
+}
+
+.function-btn--secondary:active:not(:disabled) .function-btn__label,
+.function-btn--secondary:active:not(:disabled) .function-btn__icon,
+.function-btn--secondary.function-btn--active .function-btn__label,
+.function-btn--secondary.function-btn--active .function-btn__icon {
+  color: var(--color-light-accent-active);
+}
+
+/* Disabled State */
+.function-btn--disabled,
+.function-btn:disabled {
+  cursor: not-allowed;
+}
+
+.function-btn--disabled .function-btn__label,
+.function-btn:disabled .function-btn__label,
+.function-btn--disabled .function-btn__icon,
+.function-btn:disabled .function-btn__icon {
+  color: var(--color-light-fg-disabled);
+}

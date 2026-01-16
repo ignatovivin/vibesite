@@ -1,0 +1,113 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+.input-label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.3333333333333333em;
+  color: var(--color-light-fg-default);
+  text-align: left;
+}
+
+.input-required {
+  color: var(--color-light-error-default);
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  padding: 0 12px;
+  background: var(--color-light-bg-surface-2);
+  border-radius: 12px;
+  width: 100%;
+  min-height: 44px;
+  transition: box-shadow 0.2s ease;
+}
+
+.input-field {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4285714285714286em;
+  color: var(--color-light-fg-default);
+  padding: 0;
+  width: 100%;
+}
+
+.input-field::placeholder {
+  color: var(--color-light-fg-muted);
+}
+
+.input-field:focus {
+  outline: none;
+}
+
+.input-container:hover:not(.input-container--error) {
+  box-shadow: inset 0 0 0 2px var(--color-light-accent-default);
+}
+
+.input-container:focus-within:not(.input-container--error) {
+  box-shadow: inset 0 0 0 2px var(--color-light-accent-default);
+}
+
+/* Error state styles */
+.input-wrapper .input-label--error {
+  color: var(--color-light-error-default) !important;
+}
+
+.input-container--error {
+  background: var(--color-light-error-container-soft) !important;
+  box-shadow: inset 0 0 0 2px var(--color-light-error-default) !important;
+  border-radius: 12px !important;
+}
+
+.input-container--error:hover {
+  background: var(--color-light-error-container-soft) !important;
+  box-shadow: inset 0 0 0 2px var(--color-light-error-default) !important;
+}
+
+.input-container--error:focus-within {
+  background: var(--color-light-error-container-soft) !important;
+  box-shadow: inset 0 0 0 2px var(--color-light-error-default) !important;
+}
+
+.input-hint-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 4px;
+}
+
+.input-error-message {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.3333333333333333em;
+  color: var(--color-light-error-default);
+  text-align: left;
+  flex: 1;
+}
+
+.input-counter {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.3333333333333333em;
+  color: var(--color-light-fg-muted);
+  text-align: right;
+  flex-shrink: 0;
+  margin-left: 8px;
+}

@@ -1,0 +1,58 @@
+.toast {
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-100%);
+  z-index: 10000;
+  pointer-events: none;
+  transition: transform 200ms cubic-bezier(0.33, 1, 0.68, 1),
+              opacity 150ms ease-out;
+  opacity: 0;
+}
+
+.toast--visible {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}
+
+.toast--hidden {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 0;
+}
+
+.toast__content {
+  background: rgba(0, 0, 0, 0.80); /* Черный цвет с 80% прозрачностью */
+  color: #FFFFFF;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4285714285714286em;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.toast__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FFFFFF;
+  width: 24px;
+  height: 24px;
+}
+
+.toast__message {
+  flex: 1;
+}
+
+/* Используем color-mix для черного цвета с прозрачностью, если доступна */
+@supports (background: color-mix(in srgb, black 50%, transparent)) {
+  .toast__content {
+    background: color-mix(in srgb, #000000 80%, transparent);
+  }
+}

@@ -1,0 +1,340 @@
+/* Base Button Styles */
+.btn {
+  font-family: 'Inter', sans-serif;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  user-select: none;
+  outline: none;
+  box-sizing: border-box;
+  height: auto;
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--color-light-accent-default);
+  outline-offset: 2px;
+}
+
+.btn__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  height: auto;
+  min-height: auto;
+  max-height: none;
+}
+
+.btn__label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  min-height: auto;
+  max-height: none;
+  line-height: inherit;
+}
+
+/* Sizes */
+.btn--xl {
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 1.375em;
+  border-radius: 12px;
+  min-height: 48px;
+  height: auto;
+}
+
+.btn--l {
+  padding: 0 16px;
+  font-size: 16px;
+  line-height: 1.375em;
+  border-radius: 12px;
+  min-height: 44px;
+  height: auto;
+}
+
+.btn--m {
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 1.4285714285714286em;
+  border-radius: 12px;
+  min-height: 36px;
+  height: auto;
+}
+
+.btn--s {
+  padding: 0 8px;
+  font-size: 12px;
+  line-height: 1.3333333333333333em;
+  border-radius: 12px;
+  min-height: 32px;
+  height: auto;
+}
+
+/* Variant: Primary */
+.btn--primary.btn--accent {
+  background: var(--color-light-accent-default);
+  color: var(--color-light-accent-on-accent);
+}
+
+.btn--primary.btn--accent:hover:not(:disabled) {
+  background: var(--color-light-accent-hover);
+}
+
+.btn--primary.btn--accent:active:not(:disabled),
+.btn--primary.btn--accent.btn--focus {
+  background: var(--color-light-accent-active);
+}
+
+.btn--primary.btn--accentyellow {
+  background: var(--color-light-accent-second-default);
+  color: var(--color-light-accent-second-on-accent);
+}
+
+.btn--primary.btn--accentyellow:hover:not(:disabled) {
+  background: var(--color-light-accent-second-hover);
+}
+
+.btn--primary.btn--accentyellow:active:not(:disabled),
+.btn--primary.btn--accentyellow.btn--focus {
+  background: var(--color-light-accent-second-active);
+}
+
+.btn--primary.btn--neutral {
+  background: var(--color-light-neutral-default);
+  color: var(--color-light-neutral-on-neutral);
+}
+
+.btn--primary.btn--neutral:hover:not(:disabled) {
+  background: var(--color-light-neutral-hover);
+}
+
+.btn--primary.btn--neutral:active:not(:disabled),
+.btn--primary.btn--neutral.btn--focus {
+  background: var(--color-light-neutral-active);
+}
+
+/* Variant: Secondary */
+.btn--secondary.btn--accent {
+  background: var(--color-light-accent-container-default);
+  color: var(--color-light-accent-on-container);
+}
+
+.btn--secondary.btn--accent:hover:not(:disabled) {
+  background: var(--color-light-accent-container-hover);
+  color: var(--color-light-accent-hover);
+}
+
+.btn--secondary.btn--accent:active:not(:disabled),
+.btn--secondary.btn--accent.btn--focus {
+  background: var(--color-light-accent-container-active);
+  color: var(--color-light-accent-active);
+}
+
+.btn--secondary.btn--accentyellow {
+  background: var(--color-light-accent-second-container-default);
+  color: var(--color-light-accent-second-on-container);
+}
+
+.btn--secondary.btn--accentyellow:hover:not(:disabled) {
+  background: var(--color-light-accent-second-container-hover);
+  color: var(--color-light-accent-second-hover);
+}
+
+.btn--secondary.btn--accentyellow:active:not(:disabled),
+.btn--secondary.btn--accentyellow.btn--focus {
+  background: var(--color-light-accent-second-container-active);
+  color: var(--color-light-accent-second-active);
+}
+
+.btn--secondary.btn--neutral {
+  background: var(--color-light-neutral-container-default);
+  color: var(--color-light-neutral-on-container);
+}
+
+.btn--secondary.btn--neutral:hover:not(:disabled) {
+  background: var(--color-light-neutral-container-hover);
+  color: var(--color-light-neutral-hover);
+}
+
+.btn--secondary.btn--neutral:active:not(:disabled),
+.btn--secondary.btn--neutral.btn--focus {
+  background: var(--color-light-neutral-container-active);
+  color: var(--color-light-neutral-active);
+}
+
+/* Variant: Outline */
+.btn--outline {
+  background: transparent;
+  border: 2px solid;
+  box-sizing: border-box;
+}
+
+/* Корректировка высоты для outline варианта с учетом border */
+.btn--outline.btn--xl {
+  min-height: 48px;
+  height: auto;
+  padding: 0 18px; /* Уменьшаем padding на 2px с каждой стороны для компенсации border */
+}
+
+.btn--outline.btn--l {
+  min-height: 44px;
+  height: auto;
+  padding: 0 14px; /* Уменьшаем padding на 2px с каждой стороны для компенсации border */
+}
+
+.btn--outline.btn--m {
+  min-height: 36px;
+  height: auto;
+  padding: 8px 10px; /* Уменьшаем padding на 2px с каждой стороны для компенсации border */
+}
+
+.btn--outline.btn--s {
+  min-height: 32px;
+  height: auto;
+  padding: 0 6px; /* Уменьшаем padding на 2px с каждой стороны для компенсации border */
+}
+
+.btn--outline.btn--accent {
+  border-color: var(--color-light-accent-muted);
+  color: var(--color-light-accent-default);
+}
+
+.btn--outline.btn--accent:hover:not(:disabled) {
+  background: var(--color-light-accent-container-default);
+  border-color: var(--color-light-accent-soft);
+  color: var(--color-light-accent-hover);
+}
+
+.btn--outline.btn--accent:active:not(:disabled),
+.btn--outline.btn--accent.btn--focus {
+  background: var(--color-light-accent-container-default);
+  border-color: var(--color-light-accent-default);
+  color: var(--color-light-accent-active);
+}
+
+.btn--outline.btn--accentyellow {
+  border-color: var(--color-light-accent-second-muted);
+  color: var(--color-light-accent-second-default);
+}
+
+.btn--outline.btn--accentyellow:hover:not(:disabled) {
+  background: var(--color-light-accent-second-container-default);
+  border-color: var(--color-light-accent-second-soft);
+  color: var(--color-light-accent-second-hover);
+}
+
+.btn--outline.btn--accentyellow:active:not(:disabled),
+.btn--outline.btn--accentyellow.btn--focus {
+  background: var(--color-light-accent-second-container-default);
+  border-color: var(--color-light-accent-second-default);
+  color: var(--color-light-accent-second-active);
+}
+
+.btn--outline.btn--neutral {
+  border-color: var(--color-light-neutral-muted);
+  color: var(--color-light-neutral-default);
+}
+
+.btn--outline.btn--neutral:hover:not(:disabled) {
+  background: var(--color-light-neutral-container-default);
+  border-color: var(--color-light-neutral-soft);
+  color: var(--color-light-neutral-hover);
+}
+
+.btn--outline.btn--neutral:active:not(:disabled),
+.btn--outline.btn--neutral.btn--focus {
+  background: var(--color-light-neutral-container-default);
+  border-color: var(--color-light-neutral-default);
+  color: var(--color-light-neutral-active);
+}
+
+/* Variant: Ghost */
+.btn--ghost {
+  background: transparent;
+  border: none;
+}
+
+.btn--ghost.btn--accent {
+  color: var(--color-light-accent-default);
+}
+
+.btn--ghost.btn--accent:hover:not(:disabled) {
+  background: var(--color-light-accent-container-default);
+  color: var(--color-light-accent-hover);
+}
+
+.btn--ghost.btn--accent:active:not(:disabled),
+.btn--ghost.btn--accent.btn--focus {
+  background: var(--color-light-accent-container-default);
+  color: var(--color-light-accent-active);
+}
+
+.btn--ghost.btn--accentyellow {
+  color: var(--color-light-accent-second-default);
+}
+
+.btn--ghost.btn--accentyellow:hover:not(:disabled) {
+  background: var(--color-light-accent-second-container-default);
+  color: var(--color-light-accent-second-hover);
+}
+
+.btn--ghost.btn--accentyellow:active:not(:disabled),
+.btn--ghost.btn--accentyellow.btn--focus {
+  background: var(--color-light-accent-second-container-default);
+  color: var(--color-light-accent-second-active);
+}
+
+.btn--ghost.btn--neutral {
+  color: var(--color-light-neutral-default);
+}
+
+.btn--ghost.btn--neutral:hover:not(:disabled) {
+  background: var(--color-light-neutral-container-default);
+  color: var(--color-light-neutral-hover);
+}
+
+.btn--ghost.btn--neutral:active:not(:disabled),
+.btn--ghost.btn--neutral.btn--focus {
+  background: var(--color-light-neutral-container-default);
+  color: var(--color-light-neutral-active);
+}
+
+/* Disabled State */
+.btn--disabled,
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+.btn--primary.btn--disabled,
+.btn--primary:disabled {
+  background: var(--color-light-bg-disabled);
+  color: var(--color-light-fg-disabled);
+}
+
+.btn--secondary.btn--disabled,
+.btn--secondary:disabled {
+  background: var(--color-light-bg-disabled);
+  color: var(--color-light-fg-disabled);
+}
+
+.btn--outline.btn--disabled,
+.btn--outline:disabled {
+  background: transparent;
+  border-color: var(--color-light-border-muted);
+  color: var(--color-light-fg-disabled);
+}
+
+.btn--ghost.btn--disabled,
+.btn--ghost:disabled {
+  background: transparent;
+  color: var(--color-light-fg-disabled);
+}

@@ -1,0 +1,363 @@
+.footer {
+  background: var(--color-light-fg-default);
+  width: 100%;
+  padding-top: 40px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+.footer__container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 76px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footer__top {
+  display: flex;
+  align-items: center;
+  gap: 138px;
+}
+
+.footer__logo-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 350px;
+  height: 134px;
+  flex-shrink: 0;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  height: 36px;
+}
+
+.footer__logo svg {
+  width: 200px;
+  height: 36px;
+}
+
+.footer__logo svg text {
+  fill: var(--color-dark-fg-default);
+}
+
+/* FunctionButton стили для footer (темная тема) */
+.footer .function-btn--secondary .function-btn__label {
+  color: var(--color-dark-neutral-default);
+}
+
+.footer .function-btn--secondary .function-btn__icon {
+  color: var(--color-dark-neutral-default);
+}
+
+.footer .function-btn--secondary:hover:not(:disabled) .function-btn__label,
+.footer .function-btn--secondary:hover:not(:disabled) .function-btn__icon {
+  color: var(--color-dark-neutral-hover);
+}
+
+.footer .function-btn--secondary:active:not(:disabled) .function-btn__label,
+.footer .function-btn--secondary:active:not(:disabled) .function-btn__icon {
+  color: var(--color-dark-neutral-active);
+}
+
+.footer__description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer__description-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.3333333333333333em;
+  color: var(--color-dark-fg-muted);
+  margin: 0;
+  text-align: left;
+}
+
+.footer__description .badge {
+  width: fit-content;
+}
+
+.footer__links-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+  flex: 1;
+  align-items: flex-start;
+}
+
+.footer__links-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+  min-width: 0;
+}
+
+.footer__links-column--contacts {
+  flex: 0 0 auto;
+  min-width: 228px;
+}
+
+.footer__column-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.375em;
+  color: var(--color-dark-fg-default);
+  margin: 0;
+  text-align: left;
+}
+
+.footer__links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 100%;
+}
+
+.footer__links-list .function-btn {
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}
+
+.footer__bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer__divider {
+  width: 100%;
+  height: 1px;
+  background: var(--color-dark-border-default);
+}
+
+.footer__bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 96px;
+}
+
+.footer__bottom-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer__copyright {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.3333333333333333em;
+  color: var(--color-dark-fg-muted);
+  margin: 0;
+  width: 520px;
+  text-align: right;
+}
+
+/* Адаптивность для средних экранов (1440px и меньше) */
+@media (max-width: 1440px) {
+  .footer__container {
+    padding: 0 60px;
+  }
+
+  .footer__top {
+    gap: 80px;
+  }
+
+  .footer__links-section {
+    gap: 80px;
+  }
+}
+
+/* Адаптивность для средних экранов (1024px и меньше) */
+@media (max-width: 1024px) {
+  .footer {
+    padding-top: 32px;
+  }
+
+  .footer__container {
+    padding: 0 40px;
+    gap: 28px;
+  }
+
+  .footer__top {
+    gap: 40px;
+  }
+
+  .footer__logo-section {
+    width: 300px;
+    height: auto;
+  }
+
+  .footer__links-section {
+    gap: 40px;
+  }
+
+  .footer__bottom-content {
+    gap: 60px;
+  }
+}
+
+/* Адаптивность для планшетов (768px и меньше) */
+@media (max-width: 768px) {
+  .footer {
+    padding-top: 32px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+
+  .footer__container {
+    padding: 0 20px;
+    gap: 24px;
+  }
+
+  .footer__top {
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+  }
+
+  .footer__logo-section {
+    width: 100%;
+    height: auto;
+    gap: 10px;
+  }
+
+  .footer__logo svg {
+    width: 150px;
+    height: 28px;
+  }
+
+  .footer__description {
+    gap: 12px;
+  }
+
+  .footer__description-text {
+    font-size: 11px;
+  }
+
+  .footer__links-section {
+    flex-wrap: wrap;
+    gap: 32px;
+    width: 100%;
+  }
+
+  .footer__links-column {
+    width: calc(50% - 16px);
+    min-width: 0;
+  }
+
+  .footer__links-column--contacts {
+    width: 100%;
+  }
+
+  .footer__column-title {
+    font-size: 15px;
+  }
+
+  .footer__bottom {
+    gap: 12px;
+  }
+
+  .footer__bottom-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .footer__copyright {
+    width: 100%;
+    text-align: left;
+    font-size: 11px;
+  }
+}
+
+/* Адаптивность для мобильных устройств (375px и меньше) */
+@media (max-width: 375px) {
+  .footer {
+    padding-top: 24px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+
+  .footer__container {
+    padding: 0 12px;
+    gap: 20px;
+  }
+
+  .footer__top {
+    gap: 24px;
+  }
+
+  .footer__logo-section {
+    gap: 8px;
+  }
+
+  .footer__logo svg {
+    width: 120px;
+    height: 24px;
+  }
+
+  .footer__description {
+    gap: 10px;
+  }
+
+  .footer__description-text {
+    font-size: 10px;
+    line-height: 1.4em;
+  }
+
+  .footer__links-section {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .footer__links-column {
+    width: 100%;
+    gap: 12px;
+  }
+
+  .footer__column-title {
+    font-size: 14px;
+  }
+
+  .footer__links-list {
+    gap: 0;
+  }
+
+  .footer__links-list .function-btn__icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer__bottom {
+    gap: 10px;
+  }
+
+  .footer__bottom-content {
+    gap: 12px;
+  }
+
+  .footer__bottom-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .footer__copyright {
+    font-size: 10px;
+    line-height: 1.4em;
+  }
+}

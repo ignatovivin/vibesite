@@ -1,0 +1,185 @@
+.select-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+.select-label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.3333333333333333em;
+  color: var(--color-light-fg-default);
+  text-align: left;
+}
+
+.select-required {
+  color: var(--color-light-error-default);
+}
+
+.select-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  padding: 0 12px;
+  background: var(--color-light-bg-surface-2);
+  border-radius: 12px;
+  width: 100%;
+  min-height: 44px;
+  position: relative;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+
+.select-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-light-fg-default);
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.select-icon--open {
+  transform: rotate(180deg);
+}
+
+.select-icon svg {
+  transition: transform 0.2s ease;
+}
+
+.select-container:hover:not(.select-container--error) {
+  box-shadow: inset 0 0 0 2px var(--color-light-accent-default);
+}
+
+.select-container:focus-within:not(.select-container--error) {
+  box-shadow: inset 0 0 0 2px var(--color-light-accent-default);
+}
+
+/* Кастомный dropdown согласно дизайну Figma */
+.select-field-custom {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4285714285714286em;
+  color: var(--color-light-fg-default);
+  padding: 0;
+  width: 100%;
+  cursor: pointer;
+  text-align: left;
+}
+
+.select-field-custom--placeholder {
+  color: var(--color-light-fg-muted);
+}
+
+.select-field-hidden {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+}
+
+.select-dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: var(--color-light-bg-surface-1);
+  border-radius: 6px;
+  box-shadow: var(--shadow-light-large);
+  overflow: hidden;
+}
+
+.select-dropdown__list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px;
+}
+
+.select-dropdown__item {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4285714285714286em;
+  color: var(--color-light-fg-default);
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  text-align: left;
+}
+
+.select-dropdown__item:hover {
+  background: var(--color-light-bg-surface-2);
+}
+
+.select-dropdown__item--selected {
+  background: var(--color-light-accent-container-default);
+  color: var(--color-light-accent-default);
+}
+
+.select-dropdown__item--placeholder {
+  color: var(--color-light-fg-muted);
+}
+
+/* Error state styles */
+.select-wrapper .select-label--error {
+  color: var(--color-light-error-default) !important;
+}
+
+.select-container--error {
+  background: var(--color-light-error-container-soft) !important;
+  box-shadow: inset 0 0 0 2px var(--color-light-error-default) !important;
+  border-radius: 12px !important;
+}
+
+.select-container--error:hover {
+  background: var(--color-light-error-container-soft) !important;
+  box-shadow: inset 0 0 0 2px var(--color-light-error-default) !important;
+}
+
+.select-container--error:focus-within {
+  background: var(--color-light-error-container-soft) !important;
+  box-shadow: inset 0 0 0 2px var(--color-light-error-default) !important;
+}
+
+.select-hint-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 4px;
+}
+
+.select-error-message {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.3333333333333333em;
+  color: var(--color-light-error-default);
+  text-align: left;
+  flex: 1;
+}
+
+.select-counter {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.3333333333333333em;
+  color: var(--color-light-fg-muted);
+  text-align: right;
+  flex-shrink: 0;
+  margin-left: 8px;
+}
