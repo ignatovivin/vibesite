@@ -16,7 +16,7 @@ User-agent: Bingbot
 Allow: /
 
 # Sitemap
-Sitemap: https://takto.ru/sitemap.xml
+Sitemap: https://takto.space/sitemap.xml
 
 # Disallow admin and private areas (if any)
 # Disallow: /admin/
