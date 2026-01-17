@@ -395,7 +395,7 @@ function ContactSection() {
                       <MailIcon />
                     </div>
                     <div className="contact-section__contact-details">
-                      <div className="contact-section__contact-label">Email</div>
+                      <div className="contact-section__contact-label text-style-font-body-m">Email</div>
                       <FunctionButton
                         variant="secondary"
                         icon={null}
@@ -410,7 +410,7 @@ function ContactSection() {
                       <PhoneIcon />
                     </div>
                     <div className="contact-section__contact-details">
-                      <div className="contact-section__contact-label">Телефон</div>
+                      <div className="contact-section__contact-label text-style-font-body-m">Телефон</div>
                       <FunctionButton
                         variant="secondary"
                         icon={null}

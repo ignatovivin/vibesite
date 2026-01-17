@@ -159,7 +159,7 @@ function PricingSection() {
             </div>
             <div className="pricing-card__price-section">
               <span className="pricing-card__price">{plan.price}</span>
-              <span className="pricing-card__price-details">{plan.priceDetails}</span>
+              <span className="pricing-card__price-details text-style-font-body-m">{plan.priceDetails}</span>
             </div>
           </div>
           <p className="pricing-card__description text-style-font-body-s">

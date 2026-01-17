@@ -257,10 +257,6 @@
 }
 
 .pricing-card__price-details {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.375em;
   color: var(--color-light-fg-muted);
 }
 
@@ -459,11 +455,6 @@
     font-size: 40px;
   }
 
-  .pricing-card__price-details {
-    font-size: 14px;
-  }
-
-
   .pricing-card__features {
     gap: 10px;
   }
@@ -589,10 +580,6 @@
   .pricing-card__price {
     font-size: 32px;
     line-height: 1.1em;
-  }
-
-  .pricing-card__price-details {
-    font-size: 13px;
   }
 
   .pricing-card__description {

@@ -144,10 +144,6 @@
 }
 
 .contact-section__contact-label {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.375em;
   text-align: left;
   color: var(--color-light-fg-default);
 }
@@ -493,10 +489,6 @@
   .contact-section__contact-icon {
     width: 36px;
     height: 36px;
-  }
-
-  .contact-section__contact-label {
-    font-size: 14px;
   }
 
   .contact-section__form {
