@@ -40,11 +40,14 @@
 
 .function-btn__label {
   text-align: left;
+  font-size: 14px !important;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 /* Убеждаемся, что text-style-font-body-s применяется правильно */
 .function-btn__label.text-style-font-body-s {
-  font-size: 14px;
+  font-size: 14px !important;
   font-weight: 400;
   line-height: 20px;
 }
