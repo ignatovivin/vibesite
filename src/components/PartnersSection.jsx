@@ -33,7 +33,7 @@ function PartnersSection() {
               Доверие
             </Badge>
             <div className="partners-section__header-content">
-              <h2 className="partners-section__title">
+              <h2 className="partners-section__title text-style-font-heading-h-2">
                 Наши партнеры
               </h2>
               <p className="partners-section__subtitle">

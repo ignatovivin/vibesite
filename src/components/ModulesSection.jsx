@@ -121,7 +121,7 @@ function ModulesSection() {
               Модульная архитектура
             </Badge>
             <div className="modules-section__header-content">
-              <h2 className="modules-section__title">
+              <h2 className="modules-section__title text-style-font-heading-h-2">
                 Модули для каждого этапа роста
               </h2>
               <p className="modules-section__subtitle">

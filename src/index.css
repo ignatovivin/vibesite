@@ -236,7 +236,6 @@ body {
 }
 
 /* h2 = Display S */
-h2,
 .text-style-font-heading-h-2 {
   font-size: 36px;
   font-weight: 500;
@@ -408,7 +407,6 @@ h2,
   }
 
   /* h2 = Display S мобильный */
-  h2,
   .text-style-mobile-font-heading-h-2,
   .text-style-font-heading-h-2 {
     font-size: 20px;

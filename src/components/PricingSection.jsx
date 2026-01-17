@@ -213,7 +213,7 @@ function PricingSection() {
             Тарифы
           </Badge>
           <div className="pricing-section__header-content">
-            <h2 className="pricing-section__title">
+            <h2 className="pricing-section__title text-style-font-heading-h-2">
               Выберите свой план
             </h2>
             <p className="pricing-section__subtitle">
