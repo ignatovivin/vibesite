@@ -179,10 +179,6 @@
 }
 
 .custom-platform-card__feature-text {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.4285714285714286em;
   text-align: left;
   color: var(--color-light-fg-default);
 }
@@ -295,9 +291,6 @@
     gap: 10px;
   }
 
-  .custom-platform-card__feature-text {
-    font-size: 13px;
-  }
 }
 
 /* Адаптивность для мобильных устройств (375px и меньше) */
@@ -365,9 +358,6 @@
     height: 6px;
   }
 
-  .custom-platform-card__feature-text {
-    font-size: 13px;
-  }
 }
 
 /* Адаптивность для очень маленьких экранов (320px и меньше) */

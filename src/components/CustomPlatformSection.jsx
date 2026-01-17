@@ -167,7 +167,7 @@ function CustomPlatformSection() {
                         <div className="custom-platform-card__dot">
                           <DotIcon />
                         </div>
-                        <span className="custom-platform-card__feature-text">{feature}</span>
+                        <span className="custom-platform-card__feature-text text-style-font-body-s">{feature}</span>
                       </div>
                     ))}
                   </div>
