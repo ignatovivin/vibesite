@@ -1,5 +1,6 @@
 /* Base Button Styles */
 .btn {
+  font-family: 'Inter', sans-serif;
   border: none;
   cursor: pointer;
   display: inline-flex;
