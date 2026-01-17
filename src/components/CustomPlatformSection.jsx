@@ -158,7 +158,7 @@ function CustomPlatformSection() {
               {currentPlans.map((plan, index) => (
                 <div key={index} className="custom-platform-card">
                   <div className="custom-platform-card__info">
-                    <h3 className="custom-platform-card__title">{plan.title}</h3>
+                    <h3 className="custom-platform-card__title text-style-font-heading-h-3">{plan.title}</h3>
                     <p className="custom-platform-card__subtitle">{plan.subtitle}</p>
                   </div>
                   <div className="custom-platform-card__features">

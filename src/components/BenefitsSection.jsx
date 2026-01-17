@@ -61,7 +61,7 @@ function BenefitsSection() {
                   <img src={benefit.icon} alt={benefit.title} />
                 </div>
                 <div className="benefits-card__content">
-                  <h3 className="benefits-card__title">{benefit.title}</h3>
+                  <h3 className="benefits-card__title text-style-font-heading-h-3">{benefit.title}</h3>
                   <p className="benefits-card__subtitle">{benefit.subtitle}</p>
                 </div>
               </div>

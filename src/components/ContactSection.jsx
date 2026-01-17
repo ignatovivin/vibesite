@@ -387,7 +387,7 @@ function ContactSection() {
             <div className="contact-section__form-container">
               <div className="contact-section__contact-info">
                 <div className="contact-section__contact-header">
-                  <h3 className="contact-section__contact-title">Свяжитесь с нами</h3>
+                  <h3 className="contact-section__contact-title text-style-font-heading-h-3">Свяжитесь с нами</h3>
                 </div>
                 <div className="contact-section__contact-items">
                   <div className="contact-section__contact-item">
@@ -425,7 +425,7 @@ function ContactSection() {
 
               <div className="contact-section__form">
                 <div className="contact-section__form-header">
-                  <h3 className="contact-section__form-title">Оставьте заявку</h3>
+                  <h3 className="contact-section__form-title text-style-font-heading-h-3">Оставьте заявку</h3>
                   <p className="contact-section__form-subtitle">
                     Расскажите о своем бизнесе, и мы предложим оптимальное решение
                   </p>

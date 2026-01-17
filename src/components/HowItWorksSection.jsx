@@ -134,7 +134,7 @@ function HowItWorksSection() {
                         <img src={step.icon} alt={step.title} />
                       </div>
                       <div className="how-it-works-step__content">
-                        <h3 className="how-it-works-step__title">{step.title}</h3>
+                        <h3 className="how-it-works-step__title text-style-font-heading-h-3">{step.title}</h3>
                         <p className="how-it-works-step__subtitle">{step.subtitle}</p>
                       </div>
                     </div>
@@ -184,7 +184,7 @@ function HowItWorksSection() {
                             <img src={step.icon} alt={step.title} />
                           </div>
                           <div className="how-it-works-step__content">
-                            <h3 className="how-it-works-step__title">{step.title}</h3>
+                            <h3 className="how-it-works-step__title text-style-font-heading-h-3">{step.title}</h3>
                             <p className="how-it-works-step__subtitle">{step.subtitle}</p>
                           </div>
                         </div>

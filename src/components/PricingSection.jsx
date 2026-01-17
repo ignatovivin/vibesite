@@ -149,7 +149,7 @@ function PricingSection() {
         <div className="pricing-card__header">
           <div className="pricing-card__title-section">
             <div className="pricing-card__title-row">
-              <h3 className="pricing-card__title">{plan.name}</h3>
+              <h3 className="pricing-card__title text-style-font-heading-h-3">{plan.name}</h3>
               {plan.badge && (
                 <>
                   <span className="pricing-card__divider"></span>
