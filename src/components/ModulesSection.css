@@ -33,10 +33,6 @@
 }
 
 .modules-section__title {
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 1.2222222222222223em;
   text-align: center;
   color: var(--color-light-fg-default);
   margin: 0;
@@ -324,10 +320,6 @@
     gap: 10px;
   }
 
-  .modules-section__title {
-    font-size: 32px;
-  }
-
   .modules-section__subtitle {
     font-size: 18px;
   }
@@ -366,11 +358,6 @@
 
   .modules-section__header-content {
     gap: 8px;
-  }
-
-  .modules-section__title {
-    font-size: 28px;
-    line-height: 1.25em;
   }
 
   .modules-section__subtitle {
@@ -425,11 +412,6 @@
 
   .modules-section__header-content {
     gap: 8px;
-  }
-
-  .modules-section__title {
-    font-size: 22px;
-    line-height: 1.3em;
   }
 
   .modules-section__subtitle {
@@ -493,8 +475,4 @@
 
 /* Адаптивность для очень маленьких экранов (320px и меньше) */
 @media (max-width: 320px) {
-  .modules-section__title {
-    font-size: 22px;
-    line-height: 1.3em;
-  }
 }
