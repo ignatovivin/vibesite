@@ -296,6 +296,7 @@ body {
 }
 
 .text-style-font-body-s {
+  font-family: 'Inter', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -468,6 +469,7 @@ body {
 
   .text-style-mobile-font-body-s,
   .text-style-font-body-s {
+    font-family: 'Inter', sans-serif;
     font-size: 13px;
     line-height: 20px;
   }
