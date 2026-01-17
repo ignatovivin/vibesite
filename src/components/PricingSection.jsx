@@ -162,7 +162,7 @@ function PricingSection() {
               <span className="pricing-card__price-details">{plan.priceDetails}</span>
             </div>
           </div>
-          <p className="pricing-card__description">
+          <p className="pricing-card__description text-style-font-body-s">
             {plan.description.split(' из ').map((part, i, arr) => 
               i === arr.length - 1 ? (
                 <React.Fragment key={i}>
