@@ -144,7 +144,7 @@ function HeroSection() {
             
             <div className="hero-section__content">
               <div className="hero-section__title-wrapper">
-                <h1 className="hero-section__title">
+                <h1 className="hero-section__title text-style-font-heading-h-1">
                   ТАКТО-дирижер вашего{' '}
                   <span className="hero-section__title-accent">бизнес&shy;-оркестра</span>
                 </h1>
