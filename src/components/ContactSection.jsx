@@ -426,7 +426,7 @@ function ContactSection() {
               <div className="contact-section__form">
                 <div className="contact-section__form-header">
                   <h3 className="contact-section__form-title text-style-font-heading-h-3">Оставьте заявку</h3>
-                  <p className="contact-section__form-subtitle">
+                  <p className="contact-section__form-subtitle text-style-font-body-s">
                     Расскажите о своем бизнесе, и мы предложим оптимальное решение
                   </p>
                 </div>

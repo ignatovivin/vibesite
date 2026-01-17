@@ -183,10 +183,6 @@
 }
 
 .contact-section__form-subtitle {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.4285714285714286em;
   text-align: left;
   color: var(--color-light-fg-muted);
   margin: 0;
@@ -414,10 +410,6 @@
     font-size: 20px;
   }
 
-  .contact-section__form-subtitle {
-    font-size: 13px;
-  }
-
   .contact-section__form-fields {
     gap: 20px;
   }
@@ -518,10 +510,6 @@
 
   .contact-section__form-title {
     font-size: 18px;
-  }
-
-  .contact-section__form-subtitle {
-    font-size: 12px;
   }
 
   .contact-section__form-fields {
