@@ -36,8 +36,10 @@
 
 /* Sizes */
 .badge--s .badge__text {
-  font-size: 12px;
-  line-height: 1.3333333333333333em;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0.4px;
 }
 
 .badge--2xs .badge__text {

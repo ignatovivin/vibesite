@@ -495,6 +495,7 @@ body {
   .text-style-mobile-font-description-l-strong,
   .text-style-font-description-l-strong {
     font-size: 12px;
+    font-weight: 500;
     line-height: 16px;
   }
 
@@ -507,6 +508,7 @@ body {
   .text-style-mobile-font-description-m-strong,
   .text-style-font-description-m-strong {
     font-size: 11px;
+    font-weight: 500;
     line-height: 16px;
   }
 
@@ -519,6 +521,7 @@ body {
   .text-style-mobile-font-description-s-strong,
   .text-style-font-description-s-strong {
     font-size: 10px;
+    font-weight: 500;
     line-height: 12px;
   }
 }
