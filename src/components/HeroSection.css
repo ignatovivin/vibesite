@@ -123,10 +123,6 @@
 }
 
 .hero-section__description {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.4444444444444444em;
   color: var(--color-light-fg-muted);
   margin: 0;
 }
@@ -503,9 +499,6 @@
   }
 
 
-  .hero-section__description {
-    font-size: 14px;
-  }
 
   .hero-section__visual {
     padding: 24px 16px;
@@ -578,10 +571,6 @@
   }
 
 
-  .hero-section__description {
-    font-size: 14px;
-    line-height: 1.4em;
-  }
 
   .hero-section__description-break {
     display: inline;
