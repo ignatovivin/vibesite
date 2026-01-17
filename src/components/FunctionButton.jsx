@@ -71,7 +71,7 @@ function FunctionButton({
         </span>
       )}
       <span className="function-btn__wrapper">
-        <span className="function-btn__label text-style-font-body-s">{children}</span>
+        <span className="function-btn__label">{children}</span>
       </span>
       {hasIcon && iconPosition === 'right' && (
         <span className="function-btn__icon">
