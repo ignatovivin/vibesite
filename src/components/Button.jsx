@@ -25,13 +25,16 @@ function Button({
 }) {
   const buttonState = disabled ? 'disabled' : 'default'
   
+  // Выбираем текстовый стиль в зависимости от размера кнопки
+  const textStyleClass = size === 'l' ? 'text-style-font-body-m-strong' : 'text-style-font-body-s-strong'
+  
   const buttonClasses = [
     'btn',
     `btn--${variant}`,
     `btn--${size}`,
     `btn--${colorScheme}`,
     `btn--${buttonState}`,
-    'text-style-font-body-s-strong',
+    textStyleClass,
     className
   ].filter(Boolean).join(' ')
 
