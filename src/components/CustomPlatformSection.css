@@ -73,7 +73,7 @@
   background: #FFFFFF;
   border-radius: 12px;
   padding: 6px;
-  width: 255px;
+  width: fit-content;
   height: 48px;
   position: relative;
   font-family: 'Inter', sans-serif;
@@ -291,8 +291,7 @@
   }
 
   .custom-platform-section__tabs-wrapper {
-    width: 100%;
-    max-width: 255px;
+    width: fit-content;
   }
 
   .custom-platform-section__tab {
