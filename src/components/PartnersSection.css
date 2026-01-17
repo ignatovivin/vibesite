@@ -182,9 +182,6 @@
     height: 60px;
   }
 
-  .partners-card__text {
-    font-size: 14px;
-  }
 }
 
 /* Адаптивность для мобильных устройств (375px и меньше) */
@@ -225,10 +222,6 @@
     height: 60px;
   }
 
-  .partners-card__text {
-    font-size: 14px;
-    line-height: 1.4em;
-  }
 }
 
 /* Адаптивность для очень маленьких экранов (320px и меньше) */

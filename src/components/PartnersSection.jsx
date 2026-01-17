@@ -47,7 +47,7 @@ function PartnersSection() {
                 <div className="partners-card__icon">
                   <img src={partner.icon} alt={`Партнер ${index + 1}`} />
                 </div>
-                <p className="partners-card__text">{partner.text}</p>
+                <p className="partners-card__text text-style-font-body-s">{partner.text}</p>
               </div>
             ))}
           </div>
