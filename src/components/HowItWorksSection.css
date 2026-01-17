@@ -35,10 +35,6 @@
 }
 
 .how-it-works-section__title {
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 1.2222222222222223em;
   text-align: center;
   color: var(--color-light-fg-default);
   margin: 0;
@@ -273,10 +269,6 @@
     gap: 10px;
   }
 
-  .how-it-works-section__title {
-    font-size: 32px;
-  }
-
   .how-it-works-section__subtitle {
     font-size: 18px;
   }
@@ -320,11 +312,6 @@
   .how-it-works-section__header-content {
     width: 100%;
     gap: 8px;
-  }
-
-  .how-it-works-section__title {
-    font-size: 28px;
-    line-height: 1.25em;
   }
 
   .how-it-works-section__subtitle {
@@ -397,10 +384,6 @@
 
 /* Адаптивность для очень маленьких экранов (320px и меньше) */
 @media (max-width: 320px) {
-  .how-it-works-section__title {
-    font-size: 22px;
-    line-height: 1.3em;
-  }
 }
 
 /* Адаптивность для мобильных устройств (375px и меньше) */
@@ -419,11 +402,6 @@
 
   .how-it-works-section__header-content {
     gap: 8px;
-  }
-
-  .how-it-works-section__title {
-    font-size: 22px;
-    line-height: 1.3em;
   }
 
   .how-it-works-section__subtitle {

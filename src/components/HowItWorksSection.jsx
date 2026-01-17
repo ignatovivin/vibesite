@@ -116,7 +116,7 @@ function HowItWorksSection() {
               Как это работает
             </Badge>
             <div className="how-it-works-section__header-content">
-              <h2 className="how-it-works-section__title">
+              <h2 className="how-it-works-section__title text-style-font-display-s">
                 От лида до оплаты без проблем
               </h2>
               <p className="how-it-works-section__subtitle">
