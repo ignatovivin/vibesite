@@ -27,7 +27,7 @@ function Button({
   
   const buttonClasses = [
     'btn',
-    'text-style-font-body-s',
+    'text-style-font-body-s-strong',
     `btn--${variant}`,
     `btn--${size}`,
     `btn--${colorScheme}`,
