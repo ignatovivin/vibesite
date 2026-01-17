@@ -82,10 +82,6 @@
 }
 
 .partners-card__text {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.4285714285714286em;
   text-align: left;
   color: var(--color-light-fg-muted);
   margin: 0;
