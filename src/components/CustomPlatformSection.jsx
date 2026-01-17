@@ -146,7 +146,7 @@ function CustomPlatformSection() {
                 {tabs.map((tab) => (
                   <button
                     key={tab}
-                    className={`custom-platform-section__tab text-style-font-body-m ${selectedTab === tab ? 'custom-platform-section__tab--active' : ''}`}
+                    className={`custom-platform-section__tab text-style-font-body-m-strong ${selectedTab === tab ? 'custom-platform-section__tab--active' : ''}`}
                     onClick={() => setSelectedTab(tab)}
                   >
                     {tab}
