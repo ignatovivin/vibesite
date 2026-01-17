@@ -187,239 +187,147 @@ body {
 /* Display Styles - Desktop */
 .text-style-font-display-l {
   font-size: 48px;
-  font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-style: normal;
   line-height: 52px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 .text-style-font-display-l-strong {
   font-size: 48px;
-  font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-style: normal;
   line-height: 52px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 .text-style-font-display-m {
   font-size: 42px;
-  font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-style: normal;
   line-height: 44px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 .text-style-font-display-m-strong {
   font-size: 42px;
-  font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-style: normal;
   line-height: 44px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 .text-style-font-display-s {
   font-size: 32px;
-  font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-style: normal;
   line-height: 44px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 .text-style-font-display-s-strong {
   font-size: 32px;
-  font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-style: normal;
   line-height: 44px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 /* Heading Styles - Desktop */
 .text-style-font-heading-h-1 {
   font-size: 28px;
-  font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-style: normal;
   line-height: 32px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 .text-style-font-heading-h-2 {
   font-size: 22px;
-  font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-style: normal;
   line-height: 24px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 .text-style-font-heading-h-3 {
   font-size: 18px;
-  font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-style: normal;
   line-height: 20px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 .text-style-font-heading-h-4 {
   font-size: 16px;
-  font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-style: normal;
   line-height: 20px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 .text-style-font-heading-h-5 {
   font-size: 14px;
-  font-family: 'Inter', sans-serif;
   font-weight: 800;
-  font-style: normal;
   line-height: 20px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 /* Body Styles - Desktop */
 .text-style-font-body-l {
   font-size: 18px;
-  font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-style: normal;
   line-height: 26px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 .text-style-font-body-l-strong {
   font-size: 18px;
-  font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-style: normal;
   line-height: 26px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 .text-style-font-body-m {
   font-size: 16px;
-  font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-style: normal;
   line-height: 24px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 .text-style-font-body-m-strong {
   font-size: 16px;
-  font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-style: normal;
   line-height: 24px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 .text-style-font-body-s {
   font-size: 14px;
-  font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-style: normal;
   line-height: 20px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 .text-style-font-body-s-strong {
   font-size: 14px;
-  font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-style: normal;
   line-height: 20px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 /* Description Styles - Desktop */
 .text-style-font-description-l {
   font-size: 12px;
-  font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-style: normal;
   line-height: 16px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 .text-style-font-description-l-strong {
   font-size: 12px;
-  font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-style: normal;
   line-height: 16px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 .text-style-font-description-m {
   font-size: 11px;
-  font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-style: normal;
   line-height: 16px;
   letter-spacing: 0.2px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 .text-style-font-description-m-strong {
   font-size: 11px;
-  font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-style: normal;
   line-height: 16px;
   letter-spacing: 0.2px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 .text-style-font-description-s {
   font-size: 10px;
-  font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-style: normal;
   line-height: 12px;
   letter-spacing: 0.4px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 .text-style-font-description-s-strong {
   font-size: 10px;
-  font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-style: normal;
   line-height: 12px;
   letter-spacing: 0.4px;
-  text-decoration: none;
-  text-transform: none;
 }
 
 /* ============================================
