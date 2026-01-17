@@ -48,6 +48,7 @@ function FunctionButton({
   
   const buttonClasses = [
     'function-btn',
+    'text-style-font-body-s',
     `function-btn--${variant}`,
     `function-btn--${iconPosition}`,
     `function-btn--${buttonState}`,
