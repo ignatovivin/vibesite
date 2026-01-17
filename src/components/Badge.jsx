@@ -33,6 +33,10 @@ function Badge({
   )
 
   // Process children: wrap text nodes in badge__text, keep React elements as is
+  const badgeTextClass = size === 's' 
+    ? 'badge__text text-style-font-description-l-strong' 
+    : 'badge__text'
+  
   const processedChildren = hasReactElements
     ? childrenArray.map((child, index) => {
         if (React.isValidElement(child)) {
@@ -40,12 +44,12 @@ function Badge({
         }
         // Text node - wrap in badge__text
         return (
-          <span key={index} className="badge__text">
+          <span key={index} className={badgeTextClass}>
             {child}
           </span>
         )
       })
-    : <span className="badge__text">{children}</span>
+    : <span className={badgeTextClass}>{children}</span>
 
   return (
     <span className={badgeClasses} {...props}>
