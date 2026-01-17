@@ -222,31 +222,49 @@ body {
 }
 
 /* Heading Styles - Desktop */
+/* h1 = Display L */
 .text-style-font-heading-h-1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 52px;
+}
+
+.text-style-font-heading-h-1-strong {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 52px;
+}
+
+/* h2 = бывший h1 */
+.text-style-font-heading-h-2 {
   font-size: 28px;
   font-weight: 800;
   line-height: 32px;
 }
 
-.text-style-font-heading-h-2 {
+/* h3 = бывший h2 */
+.text-style-font-heading-h-3 {
   font-size: 22px;
   font-weight: 800;
   line-height: 24px;
 }
 
-.text-style-font-heading-h-3 {
+/* h4 = бывший h3 */
+.text-style-font-heading-h-4 {
   font-size: 18px;
   font-weight: 800;
   line-height: 20px;
 }
 
-.text-style-font-heading-h-4 {
+/* h5 = бывший h4 */
+.text-style-font-heading-h-5 {
   font-size: 16px;
   font-weight: 800;
   line-height: 20px;
 }
 
-.text-style-font-heading-h-5 {
+/* h6 = бывший h5 */
+.text-style-font-heading-h-6 {
   font-size: 14px;
   font-weight: 800;
   line-height: 20px;
@@ -373,32 +391,50 @@ body {
   }
 
   /* Mobile Heading Styles */
+  /* h1 = Display L мобильный */
   .text-style-mobile-font-heading-h-1,
   .text-style-font-heading-h-1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .text-style-mobile-font-heading-h-1-strong,
+  .text-style-font-heading-h-1-strong {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  /* h2 = бывший h1 мобильный */
+  .text-style-mobile-font-heading-h-2,
+  .text-style-font-heading-h-2 {
     font-size: 18px;
     line-height: 24px;
   }
 
-  .text-style-mobile-font-heading-h-2,
-  .text-style-font-heading-h-2 {
+  /* h3 = бывший h2 мобильный */
+  .text-style-mobile-font-heading-h-3,
+  .text-style-font-heading-h-3 {
     font-size: 16px;
     line-height: 20px;
   }
 
-  .text-style-mobile-font-heading-h-3,
-  .text-style-font-heading-h-3 {
+  /* h4 = бывший h3 мобильный */
+  .text-style-mobile-font-heading-h-4,
+  .text-style-font-heading-h-4 {
     font-size: 15px;
     line-height: 20px;
   }
 
-  .text-style-mobile-font-heading-h-4,
-  .text-style-font-heading-h-4 {
+  /* h5 = бывший h4 мобильный */
+  .text-style-mobile-font-heading-h-5,
+  .text-style-font-heading-h-5 {
     font-size: 14px;
     line-height: 20px;
   }
 
-  .text-style-mobile-font-heading-h-5,
-  .text-style-font-heading-h-5 {
+  /* h6 = бывший h5 мобильный */
+  .text-style-mobile-font-heading-h-6,
+  .text-style-font-heading-h-6 {
     font-size: 13px;
     line-height: 20px;
   }

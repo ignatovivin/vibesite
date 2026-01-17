@@ -19,13 +19,15 @@
 
 ### Heading Styles (Десктоп)
 
-Для заголовков секций:
+Для заголовков секций (h1-h6):
 
-- `.text-style-font-heading-h-1` - 28px, weight 800, line-height 32px
-- `.text-style-font-heading-h-2` - 22px, weight 800, line-height 24px
-- `.text-style-font-heading-h-3` - 18px, weight 800, line-height 20px
-- `.text-style-font-heading-h-4` - 16px, weight 800, line-height 20px
-- `.text-style-font-heading-h-5` - 14px, weight 800, line-height 20px
+- `.text-style-font-heading-h-1` - 48px, weight 600, line-height 52px (равен Display L)
+- `.text-style-font-heading-h-1-strong` - 48px, weight 800, line-height 52px
+- `.text-style-font-heading-h-2` - 28px, weight 800, line-height 32px (бывший h1)
+- `.text-style-font-heading-h-3` - 22px, weight 800, line-height 24px (бывший h2)
+- `.text-style-font-heading-h-4` - 18px, weight 800, line-height 20px (бывший h3)
+- `.text-style-font-heading-h-5` - 16px, weight 800, line-height 20px (бывший h4)
+- `.text-style-font-heading-h-6` - 14px, weight 800, line-height 20px (бывший h5)
 
 ### Body Styles (Десктоп)
 
@@ -56,8 +58,12 @@
 - Display L: 48px → 28px
 - Display M: 42px → 24px
 - Display S: 32px → 20px
-- Heading H1: 28px → 18px
-- Heading H2: 22px → 16px
+- Heading H1: 48px → 28px (равен Display L)
+- Heading H2: 28px → 18px (бывший h1)
+- Heading H3: 22px → 16px (бывший h2)
+- Heading H4: 18px → 15px (бывший h3)
+- Heading H5: 16px → 14px (бывший h4)
+- Heading H6: 14px → 13px (бывший h5)
 - Body L: 18px → 15px
 - Body M: 16px → 14px
 - Body S: 14px → 13px
