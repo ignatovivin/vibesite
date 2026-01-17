@@ -46,7 +46,7 @@ function BenefitsSection() {
               Преимущества ТАКТО
             </Badge>
             <div className="benefits-section__header-content">
-              <h2 className="benefits-section__title">
+              <h2 className="benefits-section__title text-style-font-display-s">
                 Почему выбирают ТАКТО
               </h2>
               <p className="benefits-section__subtitle">

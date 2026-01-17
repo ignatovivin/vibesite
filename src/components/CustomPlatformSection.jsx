@@ -132,7 +132,7 @@ function CustomPlatformSection() {
               Гибкая платформа
             </Badge>
             <div className="custom-platform-section__header-content">
-              <h2 className="custom-platform-section__title">
+              <h2 className="custom-platform-section__title text-style-font-display-s">
                 Соберите платформу под себя
               </h2>
               <p className="custom-platform-section__subtitle">

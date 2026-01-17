@@ -88,7 +88,7 @@ function FAQSection() {
               Поддержка
             </Badge>
             <div className="faq-section__header-content">
-              <h2 className="faq-section__title">
+              <h2 className="faq-section__title text-style-font-display-s">
                 Вопросы и ответы
               </h2>
               <p className="faq-section__subtitle">

@@ -32,10 +32,6 @@
 }
 
 .benefits-section__title {
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 1.2222222222222223em;
   text-align: center;
   color: var(--color-light-fg-default);
   margin: 0;
@@ -159,10 +155,6 @@
     gap: 10px;
   }
 
-  .benefits-section__title {
-    font-size: 32px;
-  }
-
   .benefits-section__subtitle {
     font-size: 18px;
   }
@@ -204,11 +196,6 @@
 
   .benefits-section__header-content {
     gap: 8px;
-  }
-
-  .benefits-section__title {
-    font-size: 28px;
-    line-height: 1.25em;
   }
 
   .benefits-section__subtitle {
@@ -260,11 +247,6 @@
     gap: 8px;
   }
 
-  .benefits-section__title {
-    font-size: 22px;
-    line-height: 1.3em;
-  }
-
   .benefits-section__subtitle {
     font-size: 14px;
     line-height: 1.5em;
@@ -299,8 +281,4 @@
 
 /* Адаптивность для очень маленьких экранов (320px и меньше) */
 @media (max-width: 320px) {
-  .benefits-section__title {
-    font-size: 22px;
-    line-height: 1.3em;
-  }
 }
