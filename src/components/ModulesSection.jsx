@@ -155,7 +155,7 @@ function ModulesSection() {
                             <span className="module-card__checkmark">
                               <DotIcon />
                             </span>
-                            <span className="module-card__feature-text">{feature}</span>
+                            <span className="module-card__feature-text text-style-font-body-s">{feature}</span>
                           </div>
                         ))}
                       </div>
