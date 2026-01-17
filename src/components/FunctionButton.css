@@ -9,6 +9,11 @@
   padding: 0;
   transition: all 0.2s ease;
   outline: none;
+  /* Гарантируем применение body-s стиля */
+  font-size: 14px !important;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: 'Inter', sans-serif;
 }
 
 .function-btn:focus-visible {
@@ -39,6 +44,11 @@
 
 .function-btn__label {
   text-align: left;
+  /* Наследуем стили от родителя, но гарантируем размер */
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  font-family: inherit;
 }
 
 /* Variant: Primary */
@@ -94,4 +104,11 @@
 .function-btn--disabled .function-btn__icon,
 .function-btn:disabled .function-btn__icon {
   color: var(--color-light-fg-disabled);
+}
+
+/* Мобильная версия - гарантируем правильный размер */
+@media (max-width: 768px) {
+  .function-btn {
+    font-size: 13px !important;
+  }
 }
