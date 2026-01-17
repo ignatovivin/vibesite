@@ -374,7 +374,7 @@ function ContactSection() {
               Связаться с нами
             </Badge>
             <div className="contact-section__content">
-              <h2 className="contact-section__title text-style-font-display-s">
+              <h2 className="contact-section__title">
                 Начните использовать ТАКТО
               </h2>
               <p className="contact-section__description">
