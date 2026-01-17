@@ -187,7 +187,7 @@ body {
 /* Display Styles - Desktop */
 .text-style-font-display-l {
   font-size: 48px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 52px;
 }
 
@@ -199,7 +199,7 @@ body {
 
 .text-style-font-display-m {
   font-size: 42px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 44px;
 }
 
@@ -211,7 +211,7 @@ body {
 
 .text-style-font-display-s {
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 44px;
 }
 
@@ -279,7 +279,7 @@ body {
 
 .text-style-font-body-l-strong {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 26px;
 }
 
@@ -317,7 +317,7 @@ body {
 
 .text-style-font-description-l-strong {
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 16px;
 }
 
@@ -330,7 +330,7 @@ body {
 
 .text-style-font-description-m-strong {
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.2px;
 }
@@ -344,7 +344,7 @@ body {
 
 .text-style-font-description-s-strong {
   font-size: 10px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 12px;
   letter-spacing: 0.4px;
 }
