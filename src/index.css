@@ -303,7 +303,7 @@ body {
 
 .text-style-font-body-s-strong {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 20px;
 }
 
@@ -474,6 +474,7 @@ body {
   .text-style-font-body-s-strong {
     font-size: 13px;
     line-height: 20px;
+    font-weight: 500;
   }
 
   /* Mobile Description Styles */
