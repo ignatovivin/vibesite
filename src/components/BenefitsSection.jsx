@@ -62,7 +62,7 @@ function BenefitsSection() {
                 </div>
                 <div className="benefits-card__content">
                   <h3 className="benefits-card__title text-style-font-heading-h-3">{benefit.title}</h3>
-                  <p className="benefits-card__subtitle">{benefit.subtitle}</p>
+                  <p className="benefits-card__subtitle text-style-font-body-s">{benefit.subtitle}</p>
                 </div>
               </div>
             ))}
