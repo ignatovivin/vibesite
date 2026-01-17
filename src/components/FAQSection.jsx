@@ -106,7 +106,7 @@ function FAQSection() {
                   className="faq-item__question"
                   onClick={() => toggleQuestion(index)}
                 >
-                  <h4 className="faq-item__question-text">{faq.question}</h4>
+                  <h4 className="faq-item__question-text text-style-font-heading-h-3">{faq.question}</h4>
                   <div className="faq-item__icon">
                     <ArrowIcon isOpen={openIndex === index} />
                   </div>

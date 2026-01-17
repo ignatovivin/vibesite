@@ -73,10 +73,6 @@
 }
 
 .faq-item__question-text {
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 1.1666666666666667em;
   text-align: left;
   color: var(--color-light-fg-default);
   margin: 0;
@@ -176,9 +172,6 @@
     padding: 20px;
   }
 
-  .faq-item__question-text {
-    font-size: 22px;
-  }
 }
 
 /* Адаптивность для планшетов (768px и меньше) */
@@ -222,8 +215,6 @@
   }
 
   .faq-item__question-text {
-    font-size: 18px;
-    line-height: 1.3em;
     min-width: 0;
   }
 
@@ -287,8 +278,6 @@
   }
 
   .faq-item__question-text {
-    font-size: 18px;
-    line-height: 1.3em;
     min-width: 0;
   }
 
