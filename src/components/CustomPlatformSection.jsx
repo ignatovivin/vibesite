@@ -159,7 +159,7 @@ function CustomPlatformSection() {
                 <div key={index} className="custom-platform-card">
                   <div className="custom-platform-card__info">
                     <h3 className="custom-platform-card__title text-style-font-heading-h-3">{plan.title}</h3>
-                    <p className="custom-platform-card__subtitle">{plan.subtitle}</p>
+                    <p className="custom-platform-card__subtitle text-style-font-body-m">{plan.subtitle}</p>
                   </div>
                   <div className="custom-platform-card__features">
                     {plan.features.map((feature, featureIndex) => (

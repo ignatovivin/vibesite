@@ -153,10 +153,6 @@
 }
 
 .custom-platform-card__subtitle {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.375em;
   text-align: left;
   color: var(--color-light-fg-muted);
   margin: 0;
@@ -299,9 +295,6 @@
     font-size: 20px;
   }
 
-  .custom-platform-card__subtitle {
-    font-size: 15px;
-  }
 
   .custom-platform-card__features {
     gap: 10px;
@@ -368,9 +361,6 @@
     font-size: 18px;
   }
 
-  .custom-platform-card__subtitle {
-    font-size: 14px;
-  }
 
   .custom-platform-card__features {
     gap: 10px;
