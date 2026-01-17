@@ -27,11 +27,11 @@ function Button({
   
   const buttonClasses = [
     'btn',
-    'text-style-font-body-s-strong',
     `btn--${variant}`,
     `btn--${size}`,
     `btn--${colorScheme}`,
     `btn--${buttonState}`,
+    'text-style-font-body-s-strong',
     className
   ].filter(Boolean).join(' ')
 
