@@ -91,7 +91,7 @@ function Footer() {
 
           <div className="footer__links-section">
             <div className="footer__links-column">
-              <h3 className="footer__column-title text-style-font-heading-h-3">Продукт</h3>
+              <h3 className="footer__column-title text-style-font-heading-h-5">Продукт</h3>
               <div className="footer__links-list">
                 {productLinks.map((link) => (
                   <FunctionButton
@@ -107,7 +107,7 @@ function Footer() {
             </div>
 
             <div className="footer__links-column">
-              <h3 className="footer__column-title text-style-font-heading-h-3">Рынки</h3>
+              <h3 className="footer__column-title text-style-font-heading-h-5">Рынки</h3>
               <div className="footer__links-list">
                 {marketsLinks.map((link) => (
                   <FunctionButton
@@ -123,7 +123,7 @@ function Footer() {
             </div>
 
             <div className="footer__links-column footer__links-column--contacts">
-              <h3 className="footer__column-title text-style-font-heading-h-3">Контакты</h3>
+              <h3 className="footer__column-title text-style-font-heading-h-5">Контакты</h3>
               <div className="footer__links-list">
                 <FunctionButton
                   variant="secondary"

@@ -259,7 +259,7 @@ body {
 /* h5 = бывший h4 */
 .text-style-font-heading-h-5 {
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 500;
   line-height: 20px;
 }
 
@@ -433,6 +433,7 @@ body {
   .text-style-mobile-font-heading-h-5,
   .text-style-font-heading-h-5 {
     font-size: 14px;
+    font-weight: 500;
     line-height: 20px;
   }
 
