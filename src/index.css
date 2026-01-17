@@ -412,6 +412,7 @@ h2,
   .text-style-mobile-font-heading-h-2,
   .text-style-font-heading-h-2 {
     font-size: 20px;
+    font-weight: 500;
     line-height: 28px;
   }
 
