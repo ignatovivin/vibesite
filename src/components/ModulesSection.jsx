@@ -142,7 +142,7 @@ function ModulesSection() {
                     <div className="module-card__header">
                       <div className="module-card__content">
                         <h3 className="module-card__title text-style-font-heading-h-3">{card.name}</h3>
-                        <p className="module-card__subtitle">{card.subtitle}</p>
+                        <p className="module-card__subtitle text-style-font-body-s">{card.subtitle}</p>
                       </div>
                       <div className="module-card__icon">
                         <ArrowIcon isOpen={isSelected} />

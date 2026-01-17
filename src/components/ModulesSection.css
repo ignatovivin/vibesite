@@ -124,10 +124,6 @@
 }
 
 .module-card__subtitle {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.4285714285714286em;
   text-align: left;
   color: var(--color-light-fg-muted);
   margin: 0;
@@ -383,9 +379,6 @@
     font-size: 20px;
   }
 
-  .module-card__subtitle {
-    font-size: 13px;
-  }
 
   .module-item {
     padding: 20px;
@@ -441,9 +434,6 @@
     font-size: 18px;
   }
 
-  .module-card__subtitle {
-    font-size: 12px;
-  }
 
   .module-card__features {
     gap: 10px;
