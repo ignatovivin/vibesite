@@ -180,7 +180,401 @@ body {
   }
 }
 
-/* Shadow Utility Classes */
+/* ============================================
+   TEXT STYLES - Typography System
+   ============================================ */
+
+/* Display Styles - Desktop */
+.text-style-font-display-l {
+  font-size: 48px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 52px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-style-font-display-l-strong {
+  font-size: 48px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 52px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-style-font-display-m {
+  font-size: 42px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 44px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-style-font-display-m-strong {
+  font-size: 42px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 44px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-style-font-display-s {
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 44px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-style-font-display-s-strong {
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 44px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* Heading Styles - Desktop */
+.text-style-font-heading-h-1 {
+  font-size: 28px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 32px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-style-font-heading-h-2 {
+  font-size: 22px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-style-font-heading-h-3 {
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-style-font-heading-h-4 {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-style-font-heading-h-5 {
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* Body Styles - Desktop */
+.text-style-font-body-l {
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 26px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-style-font-body-l-strong {
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 26px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-style-font-body-m {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-style-font-body-m-strong {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 24px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-style-font-body-s {
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-style-font-body-s-strong {
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* Description Styles - Desktop */
+.text-style-font-description-l {
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 16px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-style-font-description-l-strong {
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 16px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-style-font-description-m {
+  font-size: 11px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-style-font-description-m-strong {
+  font-size: 11px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-style-font-description-s {
+  font-size: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 12px;
+  letter-spacing: 0.4px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.text-style-font-description-s-strong {
+  font-size: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 12px;
+  letter-spacing: 0.4px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* ============================================
+   MOBILE TEXT STYLES
+   ============================================ */
+
+@media (max-width: 768px) {
+  /* Mobile Display Styles */
+  .text-style-mobile-font-display-l,
+  .text-style-font-display-l {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .text-style-mobile-font-display-l-strong,
+  .text-style-font-display-l-strong {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .text-style-mobile-font-display-m,
+  .text-style-font-display-m {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .text-style-mobile-font-display-m-strong,
+  .text-style-font-display-m-strong {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .text-style-mobile-font-display-s,
+  .text-style-font-display-s {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .text-style-mobile-font-display-s-strong,
+  .text-style-font-display-s-strong {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  /* Mobile Heading Styles */
+  .text-style-mobile-font-heading-h-1,
+  .text-style-font-heading-h-1 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .text-style-mobile-font-heading-h-2,
+  .text-style-font-heading-h-2 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .text-style-mobile-font-heading-h-3,
+  .text-style-font-heading-h-3 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .text-style-mobile-font-heading-h-4,
+  .text-style-font-heading-h-4 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .text-style-mobile-font-heading-h-5,
+  .text-style-font-heading-h-5 {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  /* Mobile Body Styles */
+  .text-style-mobile-font-body-l,
+  .text-style-font-body-l {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .text-style-mobile-font-body-l-strong,
+  .text-style-font-body-l-strong {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .text-style-mobile-font-body-m,
+  .text-style-font-body-m {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .text-style-mobile-font-body-m-strong,
+  .text-style-font-body-m-strong {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .text-style-mobile-font-body-s,
+  .text-style-font-body-s {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .text-style-mobile-font-body-s-strong,
+  .text-style-font-body-s-strong {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  /* Mobile Description Styles */
+  .text-style-mobile-font-description-l,
+  .text-style-font-description-l {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .text-style-mobile-font-description-l-strong,
+  .text-style-font-description-l-strong {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .text-style-mobile-font-description-m,
+  .text-style-font-description-m {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .text-style-mobile-font-description-m-strong,
+  .text-style-font-description-m-strong {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .text-style-mobile-font-description-s,
+  .text-style-font-description-s {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .text-style-mobile-font-description-s-strong,
+  .text-style-font-description-s-strong {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+/* ============================================
+   SHADOW UTILITY CLASSES
+   ============================================ */
+
+/* Light Theme Shadows */
 .effect-style-light-shadow-small {
   box-shadow: var(--shadow-light-small);
 }
@@ -199,4 +593,137 @@ body {
 
 .effect-style-light-shadow-active {
   box-shadow: var(--shadow-light-active);
+}
+
+/* Shadow None */
+.effect-style-shadow-none {
+  box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+/* Bottom Shadows - Light */
+.effect-style-shadow-bottom-s {
+  box-shadow: 0px 0px 8px rgba(68, 83, 113, 0.1), 0px 2px 4px rgba(68, 83, 113, 0.05);
+}
+
+.effect-style-shadow-bottom-m {
+  box-shadow: 0px 0px 16px rgba(68, 83, 113, 0.1), 0px 4px 8px rgba(68, 83, 113, 0.05);
+}
+
+.effect-style-shadow-bottom-l {
+  box-shadow: 0px 0px 20px rgba(68, 83, 113, 0.1), 0px 12px 20px rgba(68, 83, 113, 0.05);
+}
+
+.effect-style-shadow-bottom-xl {
+  box-shadow: 0px 0px 32px rgba(68, 83, 113, 0.1), 0px 32px 32px rgba(68, 83, 113, 0.05);
+}
+
+.effect-style-shadow-bottom-controls {
+  box-shadow: 0px 0px 1px rgba(68, 83, 113, 0.1), 0px 2px 2px rgba(68, 83, 113, 0.2);
+}
+
+/* Bottom Shadows - Accent */
+.effect-style-shadow-bottom-accent-s {
+  box-shadow: 0px 2px 4px rgba(0, 85, 255, 0.1), 0px 0px 8px rgba(0, 85, 255, 0.05);
+}
+
+.effect-style-shadow-bottom-accent-m {
+  box-shadow: 0px 4px 8px rgba(0, 85, 255, 0.1), 0px 0px 16px rgba(0, 85, 255, 0.05);
+}
+
+.effect-style-shadow-bottom-accent-l {
+  box-shadow: 0px 12px 20px rgba(0, 85, 255, 0.1), 0px 0px 20px rgba(0, 85, 255, 0.05);
+}
+
+.effect-style-shadow-bottom-accent-xl {
+  box-shadow: 0px 32px 32px rgba(0, 85, 255, 0.1), 0px 0px 32px rgba(0, 85, 255, 0.05);
+}
+
+.effect-style-shadow-bottom-accent-controls {
+  box-shadow: 0px 2px 2px rgba(0, 85, 255, 0.1), 0px 0px 1px rgba(0, 85, 255, 0.2);
+}
+
+/* Top Shadows - Light */
+.effect-style-shadow-top-s {
+  box-shadow: 0px 0px 8px rgba(68, 83, 113, 0.1), 0px -2px 4px rgba(68, 83, 113, 0.05);
+}
+
+.effect-style-shadow-top-m {
+  box-shadow: 0px 0px 16px rgba(68, 83, 113, 0.1), 0px -4px 8px rgba(68, 83, 113, 0.05);
+}
+
+.effect-style-shadow-top-l {
+  box-shadow: 0px 0px 20px rgba(68, 83, 113, 0.1), 0px -12px 20px rgba(68, 83, 113, 0.05);
+}
+
+.effect-style-shadow-top-xl {
+  box-shadow: 0px 0px 32px rgba(68, 83, 113, 0.1), 0px -32px 32px rgba(68, 83, 113, 0.05);
+}
+
+.effect-style-shadow-top-controls {
+  box-shadow: 0px 0px 1px rgba(68, 83, 113, 0.1), 0px -2px 2px rgba(68, 83, 113, 0.2);
+}
+
+/* Dark Theme Shadows */
+.effect-style-shadow-dark-none {
+  box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.effect-style-shadow-dark-bottom-s {
+  box-shadow: 0px 2px 4px rgba(14, 17, 23, 0.4), 0px 0px 8px rgba(14, 17, 23, 0.2);
+}
+
+.effect-style-shadow-dark-bottom-m {
+  box-shadow: 0px 4px 8px rgba(14, 17, 23, 0.4), 0px 0px 16px rgba(14, 17, 23, 0.2);
+}
+
+.effect-style-shadow-dark-bottom-l {
+  box-shadow: 0px 12px 20px rgba(14, 17, 23, 0.4), 0px 0px 20px rgba(14, 17, 23, 0.2);
+}
+
+.effect-style-shadow-dark-bottom-xl {
+  box-shadow: 0px 32px 32px rgba(14, 17, 23, 0.4), 0px 0px 32px rgba(14, 17, 23, 0.2);
+}
+
+.effect-style-shadow-dark-bottom-controls {
+  box-shadow: 0px 2px 2px rgba(14, 17, 23, 0.2), 0px 0px 1px rgba(14, 17, 23, 0.4);
+}
+
+.effect-style-shadow-dark-bottom-accent-s {
+  box-shadow: 0px 2px 4px rgba(128, 170, 255, 0.2), 0px 0px 8px rgba(128, 170, 255, 0.1);
+}
+
+.effect-style-shadow-dark-bottom-accent-m {
+  box-shadow: 0px 4px 8px rgba(128, 170, 255, 0.2), 0px 0px 16px rgba(128, 170, 255, 0.1);
+}
+
+.effect-style-shadow-dark-bottom-accent-l {
+  box-shadow: 0px 12px 20px rgba(128, 170, 255, 0.2), 0px 0px 20px rgba(128, 170, 255, 0.1);
+}
+
+.effect-style-shadow-dark-bottom-accent-xl {
+  box-shadow: 0px 32px 32px rgba(128, 170, 255, 0.2), 0px 0px 32px rgba(128, 170, 255, 0.1);
+}
+
+.effect-style-shadow-dark-bottom-accent-controls {
+  box-shadow: 0px 2px 2px rgba(128, 170, 255, 0.2), 0px 0px 1px rgba(128, 170, 255, 0.4);
+}
+
+.effect-style-shadow-dark-top-s {
+  box-shadow: 0px -2px 4px rgba(14, 17, 23, 0.4), 0px 0px 8px rgba(14, 17, 23, 0.2);
+}
+
+.effect-style-shadow-dark-top-m {
+  box-shadow: 0px -4px 8px rgba(14, 17, 23, 0.4), 0px 0px 16px rgba(14, 17, 23, 0.2);
+}
+
+.effect-style-shadow-dark-top-l {
+  box-shadow: 0px -12px 20px rgba(14, 17, 23, 0.4), 0px 0px 20px rgba(14, 17, 23, 0.2);
+}
+
+.effect-style-shadow-dark-top-xl {
+  box-shadow: 0px -32px 32px rgba(14, 17, 23, 0.4), 0px 0px 32px rgba(14, 17, 23, 0.2);
+}
+
+.effect-style-shadow-dark-top-controls {
+  box-shadow: 0px -2px 2px rgba(14, 17, 23, 0.2), 0px 0px 1px rgba(14, 17, 23, 0.4);
 }
