@@ -1,13 +1,11 @@
 /* Base Button Styles */
 .btn {
-  font-family: 'Inter', sans-serif;
   border: none;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   transition: all 0.2s ease;
-  font-weight: 500;
   text-align: center;
   white-space: nowrap;
   user-select: none;
@@ -45,7 +43,6 @@
 .btn--xl {
   padding: 0 20px;
   font-size: 16px;
-  line-height: 1.375em;
   border-radius: 12px;
   min-height: 48px;
   height: auto;
@@ -54,7 +51,6 @@
 .btn--l {
   padding: 0 16px;
   font-size: 16px;
-  line-height: 1.375em;
   border-radius: 12px;
   min-height: 44px;
   height: auto;
@@ -62,8 +58,6 @@
 
 .btn--m {
   padding: 8px 12px;
-  font-size: 14px;
-  line-height: 1.4285714285714286em;
   border-radius: 12px;
   min-height: 36px;
   height: auto;
@@ -72,7 +66,6 @@
 .btn--s {
   padding: 0 8px;
   font-size: 12px;
-  line-height: 1.3333333333333333em;
   border-radius: 12px;
   min-height: 32px;
   height: auto;
