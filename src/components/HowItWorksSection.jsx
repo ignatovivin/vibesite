@@ -135,7 +135,7 @@ function HowItWorksSection() {
                       </div>
                       <div className="how-it-works-step__content">
                         <h3 className="how-it-works-step__title text-style-font-heading-h-3">{step.title}</h3>
-                        <p className="how-it-works-step__subtitle">{step.subtitle}</p>
+                        <p className="how-it-works-step__subtitle text-style-font-body-m">{step.subtitle}</p>
                       </div>
                     </div>
                   ))}
@@ -185,7 +185,7 @@ function HowItWorksSection() {
                           </div>
                           <div className="how-it-works-step__content">
                             <h3 className="how-it-works-step__title text-style-font-heading-h-3">{step.title}</h3>
-                            <p className="how-it-works-step__subtitle">{step.subtitle}</p>
+                            <p className="how-it-works-step__subtitle text-style-font-body-m">{step.subtitle}</p>
                           </div>
                         </div>
                       </SwiperSlide>
