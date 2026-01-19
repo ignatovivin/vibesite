@@ -9,7 +9,7 @@
   margin: 0 auto;
   padding: 20px;
   background: var(--color-light-bg-surface-1);
-  border-radius: 24px;
+  border-radius: var(--border-radius-2xl);
 }
 
 .benefits-section__container {
@@ -55,7 +55,7 @@
 
 .benefits-card {
   background: #F5F5F7;
-  border-radius: 24px;
+  border-radius: var(--border-radius-2xl);
   padding: 24px;
   display: flex;
   flex-direction: column;

@@ -55,7 +55,7 @@
 
 .faq-item {
   background: var(--color-light-bg-surface-1);
-  border-radius: 24px;
+  border-radius: var(--border-radius-2xl);
   overflow: hidden;
 }
 

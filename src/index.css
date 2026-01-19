@@ -135,7 +135,7 @@
   --border-radius-s: 4px;
   --border-radius-m: var(--border-radius-base);
   --border-radius-l: 9px;
-  --border-radius-xl: 12px;
+  --border-radius-xl: 20px;
   --border-radius-2xl: 24px;
   --border-radius-inputs: var(--border-radius-m);
   --border-radius-buttons: var(--border-radius-m);

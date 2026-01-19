@@ -53,7 +53,7 @@
   justify-content: center;
   padding: 20px;
   background: #E3E3E6;
-  border-radius: 24px;
+  border-radius: var(--border-radius-2xl);
   margin: 0 auto;
 }
 
@@ -74,7 +74,7 @@
   gap: 16px;
   padding: 24px;
   background: #FFFFFF;
-  border-radius: 24px;
+  border-radius: var(--border-radius-2xl);
   min-height: 140px;
   width: 716px;
   max-width: 100%;
@@ -151,7 +151,7 @@
   padding: 24px;
   background: var(--color-light-bg-surface-1);
   border: 1px solid var(--color-light-border-muted);
-  border-radius: 24px;
+  border-radius: var(--border-radius-2xl);
   width: 100%;
   max-width: 716px;
   flex: 1;
@@ -438,7 +438,7 @@
 
   .contact-section__form-wrapper {
     padding: 12px;
-    border-radius: 24px;
+    border-radius: var(--border-radius-2xl);
     max-width: 100%;
     width: 100%;
   }
@@ -450,7 +450,7 @@
 
   .contact-section__contact-info {
     padding: 16px;
-    border-radius: 24px;
+    border-radius: var(--border-radius-2xl);
     gap: 12px;
   }
 
