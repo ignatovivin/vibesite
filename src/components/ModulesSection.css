@@ -352,6 +352,7 @@
   .modules-section__content {
     padding: 16px;
     gap: 16px;
+    border-radius: var(--border-radius-xl);
   }
 
   .modules-section__grid {
@@ -369,6 +370,7 @@
 
   .module-item {
     padding: 20px;
+    border-radius: var(--border-radius-xl);
   }
 
   .module-item__name {
@@ -398,10 +400,12 @@
   .modules-section__content {
     padding: 12px;
     gap: 12px;
+    border-radius: var(--border-radius-xl);
   }
 
   .module-card {
     padding: 16px;
+    border-radius: var(--border-radius-xl);
   }
 
   .module-card__header {
@@ -429,6 +433,7 @@
   .module-item {
     padding: 12px 8px;
     aspect-ratio: 1;
+    border-radius: var(--border-radius-xl);
   }
 
   .module-item__icon-circle {

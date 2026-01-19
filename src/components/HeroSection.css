@@ -483,6 +483,11 @@
 @media (max-width: 768px) {
   .hero-section-wrapper {
     margin: 12px auto 0;
+    border-radius: var(--border-radius-xl);
+  }
+
+  .hero-section-wrapper::before {
+    border-radius: var(--border-radius-xl);
   }
 
   .hero-section {
@@ -551,6 +556,11 @@
 @media (max-width: 375px) {
   .hero-section-wrapper {
     margin: 8px auto 0;
+    border-radius: var(--border-radius-xl);
+  }
+
+  .hero-section-wrapper::before {
+    border-radius: var(--border-radius-xl);
   }
 
   .hero-section {

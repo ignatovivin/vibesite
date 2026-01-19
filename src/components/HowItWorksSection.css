@@ -264,10 +264,12 @@
 
   .how-it-works-section__main {
     padding: 16px;
+    border-radius: var(--border-radius-xl);
   }
 
   .how-it-works-step {
     padding: 20px;
+    border-radius: var(--border-radius-xl);
   }
 
   .how-it-works-step__icon {
@@ -388,6 +390,7 @@
 
   .how-it-works-section__main {
     padding: 12px;
+    border-radius: var(--border-radius-xl);
   }
 
   .how-it-works-section__steps-wrapper {
@@ -413,6 +416,7 @@
     align-items: center;
     gap: 12px;
     padding: 16px;
+    border-radius: var(--border-radius-xl);
   }
 
   .how-it-works-section__navigation {
