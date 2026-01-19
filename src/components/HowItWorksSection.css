@@ -335,6 +335,10 @@
     padding: 20px;
   }
 
+  .how-it-works-step__content {
+    gap: 4px;
+  }
+
   .how-it-works-section__navigation {
     display: none;
   }
@@ -429,7 +433,7 @@
   }
 
   .how-it-works-step__content {
-    gap: 6px;
+    gap: 4px;
   }
 
   .how-it-works-step__title {
