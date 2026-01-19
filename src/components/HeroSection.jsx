@@ -148,7 +148,7 @@ function HeroSection() {
                   <span className="hero-section__title-accent">бизнес&shy;-оркестра</span>
                 </h1>
                 <p className="hero-section__description text-style-font-body-l">
-                  старта и роста бизнеса
+                  Модульная платформа для быстрого старта и роста бизнеса
                 </p>
               </div>
               
