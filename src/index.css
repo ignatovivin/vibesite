@@ -305,6 +305,7 @@ body {
 }
 
 .text-style-font-body-m-strong {
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -480,6 +481,7 @@ body {
 
   .text-style-mobile-font-body-m-strong,
   .text-style-font-body-m-strong {
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     line-height: 20px;
     font-weight: 600;
