@@ -127,6 +127,21 @@
   --medium: 1024px;
   --desktop: 1600px;
   
+  /* Border Radius */
+  --border-radius-base: 6px;
+  --border-radius-none: 0px;
+  --border-radius-2xs: 2px;
+  --border-radius-xs: 3px;
+  --border-radius-s: 4px;
+  --border-radius-m: var(--border-radius-base);
+  --border-radius-l: 9px;
+  --border-radius-xl: 12px;
+  --border-radius-2xl: 24px;
+  --border-radius-inputs: var(--border-radius-m);
+  --border-radius-buttons: var(--border-radius-m);
+  --border-radius-controls: var(--border-radius-xs);
+  --border-radius-full: 9999px;
+  
   /* Light Theme Shadows */
   --shadow-light-small: 0px 6px 11px -3px rgba(44,62,80,0.100), 0px 0px 2px -4px rgba(44,62,80,0.100);
   --shadow-light-medium: 0px 8px 13px -3px rgba(44,62,80,0.100), 0px 2px 4px -4px rgba(44,62,80,0.100);
