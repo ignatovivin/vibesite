@@ -216,7 +216,7 @@ function PricingSection() {
             <h2 className="pricing-section__title text-style-font-heading-h-2">
               Выберите свой план
             </h2>
-            <p className="pricing-section__subtitle">
+            <p className="pricing-section__subtitle text-style-font-body-l">
               Прозрачные тарифы без скрытых форм
             </p>
           </div>

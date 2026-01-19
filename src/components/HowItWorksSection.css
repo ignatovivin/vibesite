@@ -41,10 +41,6 @@
 }
 
 .how-it-works-section__subtitle {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.4em;
   text-align: center;
   color: var(--color-light-fg-soft);
   margin: 0;
@@ -265,9 +261,6 @@
     gap: 10px;
   }
 
-  .how-it-works-section__subtitle {
-    font-size: 18px;
-  }
 
   .how-it-works-section__main {
     padding: 16px;
@@ -310,10 +303,6 @@
     gap: 8px;
   }
 
-  .how-it-works-section__subtitle {
-    font-size: 16px;
-    line-height: 1.5em;
-  }
 
   .how-it-works-section__main {
     padding: 16px;
@@ -396,10 +385,6 @@
     gap: 8px;
   }
 
-  .how-it-works-section__subtitle {
-    font-size: 14px;
-    line-height: 1.5em;
-  }
 
   .how-it-works-section__main {
     padding: 12px;

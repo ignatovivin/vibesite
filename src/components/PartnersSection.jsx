@@ -36,7 +36,7 @@ function PartnersSection() {
               <h2 className="partners-section__title text-style-font-heading-h-2">
                 Наши партнеры
               </h2>
-              <p className="partners-section__subtitle">
+              <p className="partners-section__subtitle text-style-font-body-l">
                 Работаем с ведущими банками России для обеспечения надежности и стабильности ваших платежей
               </p>
             </div>

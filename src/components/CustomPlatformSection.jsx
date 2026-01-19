@@ -135,7 +135,7 @@ function CustomPlatformSection() {
               <h2 className="custom-platform-section__title text-style-font-heading-h-2">
                 Соберите платформу под себя
               </h2>
-              <p className="custom-platform-section__subtitle">
+              <p className="custom-platform-section__subtitle text-style-font-body-l">
                 Начните с базовых функций и добавляйте модули по мере роста бизнеса
               </p>
             </div>

@@ -39,10 +39,6 @@
 }
 
 .faq-section__subtitle {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.4em;
   text-align: center;
   color: var(--color-light-fg-soft);
   margin: 0;
@@ -160,9 +156,6 @@
     gap: 40px;
   }
 
-  .faq-section__subtitle {
-    font-size: 18px;
-  }
 
   .faq-section__items {
     width: 100%;
@@ -197,8 +190,6 @@
   }
 
   .faq-section__subtitle {
-    font-size: 16px;
-    line-height: 1.5em;
     max-width: 100%;
   }
 
@@ -260,10 +251,6 @@
     gap: 8px;
   }
 
-  .faq-section__subtitle {
-    font-size: 14px;
-    line-height: 1.5em;
-  }
 
   .faq-section__items {
     gap: 12px;

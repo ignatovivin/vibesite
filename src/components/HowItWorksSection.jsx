@@ -119,7 +119,7 @@ function HowItWorksSection() {
               <h2 className="how-it-works-section__title text-style-font-heading-h-2">
                 От лида до оплаты без проблем
               </h2>
-              <p className="how-it-works-section__subtitle">
+              <p className="how-it-works-section__subtitle text-style-font-body-l">
                 Закрываем весь путь клиента и автоматизируем рутину
               </p>
             </div>

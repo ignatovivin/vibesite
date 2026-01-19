@@ -49,7 +49,7 @@ function BenefitsSection() {
               <h2 className="benefits-section__title text-style-font-heading-h-2">
                 Почему выбирают ТАКТО
               </h2>
-              <p className="benefits-section__subtitle">
+              <p className="benefits-section__subtitle text-style-font-body-l">
                 Мы объединили лучшее от финтеха и SaaS инструментов, чтобы создать подходящий продукт для вашего бизнеса
               </p>
             </div>

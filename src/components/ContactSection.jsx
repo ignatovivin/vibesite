@@ -377,7 +377,7 @@ function ContactSection() {
               <h2 className="contact-section__title text-style-font-heading-h-2">
                 Начните использовать ТАКТО
               </h2>
-              <p className="contact-section__description">
+              <p className="contact-section__description text-style-font-body-l">
                 Оставьте заявку, и мы свяжемся с вами для уточнения запроса в течение 1-2 дней
               </p>
             </div>

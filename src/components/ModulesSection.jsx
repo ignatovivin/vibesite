@@ -124,7 +124,7 @@ function ModulesSection() {
               <h2 className="modules-section__title text-style-font-heading-h-2">
                 Модули для каждого этапа роста
               </h2>
-              <p className="modules-section__subtitle">
+              <p className="modules-section__subtitle text-style-font-body-l">
                 Начните с базового приема платежей, затем добавляйте модули по мере развития бизнеса
               </p>
             </div>

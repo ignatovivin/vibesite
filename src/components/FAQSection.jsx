@@ -91,7 +91,7 @@ function FAQSection() {
               <h2 className="faq-section__title text-style-font-heading-h-2">
                 Вопросы и ответы
               </h2>
-              <p className="faq-section__subtitle">
+              <p className="faq-section__subtitle text-style-font-body-l">
                 Популярные вопросы от наших клиентов и ответы на них
               </p>
             </div>
