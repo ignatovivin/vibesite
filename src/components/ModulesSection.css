@@ -367,6 +367,10 @@
     font-size: 20px;
   }
 
+  .module-card__features {
+    gap: 8px;
+  }
+
 
   .module-item {
     padding: 20px;
@@ -423,7 +427,7 @@
 
 
   .module-card__features {
-    gap: 10px;
+    gap: 8px;
   }
 
   .modules-section__grid {

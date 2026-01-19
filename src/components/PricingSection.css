@@ -447,7 +447,7 @@
   }
 
   .pricing-card__features {
-    gap: 10px;
+    gap: 8px;
   }
 
   .pricing-card__feature-text {
@@ -588,7 +588,7 @@
   }
 
   .pricing-card__features {
-    gap: 10px;
+    gap: 8px;
     min-height: auto;
   }
 
