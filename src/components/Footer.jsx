@@ -1,4 +1,3 @@
-import React from 'react'
 import './Footer.css'
 import FunctionButton from './FunctionButton'
 import Badge from './Badge'

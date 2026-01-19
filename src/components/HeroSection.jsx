@@ -1,4 +1,3 @@
-import React from 'react'
 import './HeroSection.css'
 import Badge from './Badge'
 import Button from './Button'

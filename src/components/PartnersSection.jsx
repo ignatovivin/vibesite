@@ -1,4 +1,3 @@
-import React from 'react'
 import './PartnersSection.css'
 import Badge from './Badge'
 import iconPartner1 from '../assets/icon-partner-1.svg'

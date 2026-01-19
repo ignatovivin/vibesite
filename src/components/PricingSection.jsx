@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation } from 'swiper/modules'
 import 'swiper/css'
@@ -165,11 +165,11 @@ function PricingSection() {
           <p className="pricing-card__description text-style-font-body-s">
             {plan.description.split(' из ').map((part, i, arr) => 
               i === arr.length - 1 ? (
-                <React.Fragment key={i}>
+                <span key={i}>
                   <br />из {part}
-                </React.Fragment>
+                </span>
               ) : (
-                <React.Fragment key={i}>{part}</React.Fragment>
+                <span key={i}>{part}</span>
               )
             )}
           </p>

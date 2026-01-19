@@ -1,4 +1,3 @@
-import React from 'react'
 import './BenefitsSection.css'
 import Badge from './Badge'
 import iconFastStart from '../assets/icon-fast-start.svg'

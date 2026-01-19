@@ -1,4 +1,3 @@
-import React from 'react'
 import './FunctionButton.css'
 
 /**
@@ -29,7 +28,7 @@ const ArrowRightIcon = ({ className = '' }) => (
  * @param {string} variant - Button variant: 'primary' | 'secondary'
  * @param {string} iconPosition - Icon position: 'left' | 'right'
  * @param {string} children - Button label text
- * @param {React.ReactNode} icon - Custom icon component (optional)
+ * @param {JSX.Element} icon - Custom icon component (optional)
  * @param {function} onClick - Click handler
  * @param {boolean} disabled - Disabled state
  * @param {object} props - Additional props
