@@ -170,8 +170,7 @@
   color: var(--color-light-accent-default);
   padding-left: 0;
   padding-right: 0;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
 }
 
 .module-card:nth-child(2) .module-card__checkmark {
