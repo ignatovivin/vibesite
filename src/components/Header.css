@@ -37,6 +37,11 @@
   align-items: center;
   height: 36px;
   flex-shrink: 0;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
 }
 
 .header__logo svg {

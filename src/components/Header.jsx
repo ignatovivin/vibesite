@@ -45,6 +45,12 @@ function Header() {
     }
   }
 
+  // Скролл наверх при клике на логотип
+  const handleLogoClick = () => {
+    setIsMobileMenuOpen(false)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
   const navItems = [
     { label: 'Как это работает', href: '#how-it-works' },
     { label: 'Продукты', href: '#products' },
@@ -112,9 +118,14 @@ function Header() {
   return (
     <header className={`header ${isScrolled ? 'header--scrolled' : ''}`}>
       <div className="header__container">
-        <div className="header__logo">
-          <img src={Logo} alt="Logo" />
-        </div>
+        <button
+          type="button"
+          className="header__logo"
+          onClick={handleLogoClick}
+          aria-label="На главную"
+        >
+          <img src={Logo} alt="ТАКТО" />
+        </button>
 
         <nav className={`header__navigation ${isMobileMenuOpen ? 'header__navigation--open' : ''}`}>
           <div className="header__nav-list">
